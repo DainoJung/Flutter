@@ -1,0 +1,27 @@
+
+WhatsApp Clone/android/app/build.gradle
+WhatsApp Clone/android/app/google-services.json
+WhatsApp Clone/android/build.gradle
+WhatsApp Clone/ios/firebase_app_id_file.json
+WhatsApp Clone/ios/Runner.xcodeproj/project.pbxproj
+WhatsApp Clone/ios/Runner/GoogleService-Info.plist
+WhatsApp Clone/lib/common/widgets/custom_icon_button.dart
+WhatsApp Clone/lib/common/extension/custom_theme_extension.dart
+WhatsApp Clone/lib/common/helper/show_alert_dialog.dart
+WhatsApp Clone/lib/common/routes/routes.dart
+WhatsApp Clone/lib/common/theme/dark_theme.dart
+WhatsApp Clone/lib/common/theme/light_theme.dart
+WhatsApp Clone/lib/feature/auth/pages/login_page.dart
+WhatsApp Clone/lib/feature/auth/pages/user_info_page.dart
+WhatsApp Clone/lib/feature/auth/pages/verification_page.dart
+WhatsApp Clone/lib/feature/auth/widgets/custom_text_field.dart
+WhatsApp Clone/lib/feature/welcome/pages/welcome_page.dart
+WhatsApp Clone/lib/feature/welcome/widgets/language_button.dart
+WhatsApp Clone/lib/firebase_options.dart
+WhatsApp Clone/lib/main.dart
+WhatsApp Clone/macos/firebase_app_id_file.json
+WhatsApp Clone/macos/Flutter/GeneratedPluginRegistrant.swift
+WhatsApp Clone/macos/Runner.xcodeproj/project.pbxproj
+WhatsApp Clone/macos/Runner/GoogleService-Info.plist
+WhatsApp Clone/pubspec.lock
+WhatsApp Clone/pubspec.yaml

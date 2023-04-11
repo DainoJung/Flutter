@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_complete_guide/common/%08widgets/custom_icon_button.dart';
 import 'package:flutter_complete_guide/common/extension/custom_theme_extension.dart';
 import 'package:flutter_complete_guide/common/utils/coloors.dart';
 
@@ -28,16 +29,9 @@ class LanguageButton extends StatelessWidget {
               Row(
                 children: [
                   const SizedBox(width: 20),
-                  IconButton(
-                    onPressed: () => Navigator.of(context).pop(),
-                    splashColor: Colors.transparent,
-                    splashRadius: 25,
-                    iconSize: 25,
-                    padding: EdgeInsets.zero,
-                    icon: const Icon(
-                      Icons.close_outlined,
-                      color: Coloors.greyDark,
-                    ),
+                  CustomIconButton(
+                    onTap: () => Navigator.of(context).pop(),
+                    icon: Icons.close_outlined,
                   ),
                   const SizedBox(width: 10),
                   const Text(
