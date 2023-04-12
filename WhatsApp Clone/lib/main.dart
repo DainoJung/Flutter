@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_complete_guide/common/routes/routes.dart';
 import 'package:flutter_complete_guide/common/theme/dark_theme.dart';
 import 'package:flutter_complete_guide/common/theme/light_theme.dart';
-import 'package:flutter_complete_guide/feature/welcome/pages/welcome_page.dart';
+import 'package:flutter_complete_guide/feature/auth/pages/user_info_page.dart';
 import 'package:flutter_complete_guide/firebase_options.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -12,7 +13,11 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  runApp(const MyApp());
+  runApp(
+    const ProviderScope(
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -26,7 +31,7 @@ class MyApp extends StatelessWidget {
       theme: lightTheme(),
       darkTheme: darkTheme(),
       themeMode: ThemeMode.system,
-      home: const WelcomePage(),
+      home: const UserInfoPage(),
       onGenerateRoute: Routes.onGenerateRoute,
     );
   }
