@@ -38,12 +38,14 @@ dependencies:
   flutter_native_splash: ^2.2.19
   country_picker: ^2.0.20
   firebase_core: ^2.9.0
-  firebase_auth: ^4.4.0
+  firebase_auth: ^4.4.1
   cloud_firestore: ^4.5.0
   firebase_storage: ^11.1.0
   flutter_riverpod: ^2.0.0-dev.9
   image_picker: ^0.8.5+3
   photo_manager: ^2.3.0
+  flutter_contacts: ^1.1.6
+  url_launcher: ^6.1.10
 
 flutter_native_splash:
   color: "#FFFFFF"

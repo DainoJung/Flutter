@@ -14,6 +14,14 @@ class ImagePickerPage extends StatefulWidget {
 
 class _ImagePickerPageState extends State<ImagePickerPage> {
   List<Widget> imageList = [];
+  int currentPage = 0;
+  int? lastPage;
+
+  handleScrollEvent(ScrollNotification scroll) {
+    if (scroll.metrics.pixels / scroll.metrics.maxScrollExtent <= .33) return;
+    if (currentPage == lastPage) return;
+    fetchAllImages();
+  }
 
   fetchAllImages() async {
     final permisson = await PhotoManager.requestPermissionExtend();
@@ -39,11 +47,26 @@ class _ImagePickerPageState extends State<ImagePickerPage> {
           ),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.done) {
-              return Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                      image: MemoryImage(snapshot.data as Uint8List),
-                      fit: BoxFit.cover),
+              return ClipRRect(
+                borderRadius: BorderRadius.circular(5),
+                child: InkWell(
+                  onTap: () => Navigator.pop(context, snapshot.data),
+                  borderRadius: BorderRadius.circular(5),
+                  splashFactory: NoSplash.splashFactory,
+                  child: Container(
+                    margin: const EdgeInsets.all(2),
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: context.theme.greyColor!.withOpacity(0.4),
+                        width: 1,
+                      ),
+                      image: DecorationImage(
+                        image: MemoryImage(snapshot.data as Uint8List),
+                        fit: BoxFit.cover,
+                      ),
+                      borderRadius: BorderRadius.circular(5),
+                    ),
+                  ),
                 ),
               );
             }
@@ -54,6 +77,7 @@ class _ImagePickerPageState extends State<ImagePickerPage> {
     }
     setState(() {
       imageList.addAll(temp);
+      currentPage++;
     });
   }
 
@@ -86,14 +110,23 @@ class _ImagePickerPageState extends State<ImagePickerPage> {
           ),
         ],
       ),
-      body: GridView.builder(
-        itemCount: imageList.length,
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 3,
+      body: Padding(
+        padding: const EdgeInsets.all(5),
+        child: NotificationListener<ScrollNotification>(
+          onNotification: (ScrollNotification scroll) {
+            handleScrollEvent(scroll);
+            return true;
+          },
+          child: GridView.builder(
+            itemCount: imageList.length,
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 3,
+            ),
+            itemBuilder: (_, index) {
+              return imageList[index];
+            },
+          ),
         ),
-        itemBuilder: (_, index) {
-          return imageList[index];
-        },
       ),
     );
   }
