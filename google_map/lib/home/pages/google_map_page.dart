@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
@@ -11,47 +9,50 @@ class GoogleMapPage extends StatefulWidget {
 }
 
 class _GoogleMapPageState extends State<GoogleMapPage> {
-  final Completer<GoogleMapController> _controller = Completer();
+  late GoogleMapController mapController;
+  final Map<String, Marker> _markers = {};
 
-  static const LatLng sourceLocation =
+  static const LatLng currentLocation =
       LatLng(37.506932467450326, 127.05578661133796);
   static const LatLng destination =
       LatLng(37.507032467450326, 127.05580661133796);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Center(
-          child: Text(
-            "Nomadmap",
-            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
-          ),
-        ),
-        backgroundColor: Colors.white,
-      ),
       body: GoogleMap(
+        myLocationEnabled: true,
+        myLocationButtonEnabled: true,
         initialCameraPosition: const CameraPosition(
-          target: sourceLocation,
+          target: currentLocation,
           zoom: 17,
         ),
-        onMapCreated: (GoogleMapController controller) {
-          _controller.complete(controller);
+        onMapCreated: (controller) {
+          mapController = controller;
+          addMarker('test', destination);
         },
-        markers: {
-          const Marker(
-            markerId: MarkerId("sourece"),
-            position: sourceLocation,
-          ),
-          const Marker(
-            markerId: MarkerId("destination"),
-            position: destination,
-          ),
-        },
-      ),
-      floatingActionButton: FloatingActionButton.small(
-        onPressed: () {},
-        child: const Icon(Icons.my_location),
+        markers: _markers.values.toSet(),
       ),
     );
+  }
+
+  addMarker(String id, LatLng location) async {
+    var markerIcon = await BitmapDescriptor.fromAssetImage(
+      const ImageConfiguration(),
+      'assets/images/logo.png',
+    );
+
+    var marker = Marker(
+      markerId: MarkerId(id),
+      position: location,
+      infoWindow: const InfoWindow(
+        title: '나이로비',
+        snippet: '멋쟁이사자 스타트업 오피스입니다.',
+      ),
+      icon: markerIcon,
+    );
+
+    _markers[id] = marker;
+    setState(() {});
   }
 }
