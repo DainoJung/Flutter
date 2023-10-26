@@ -1,0 +1,1986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+		72E614C823EA09AB1AAE80D5CD8A4C58 /* NMapsGeometry */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D6A3CBBB7CA9C673954A5F8248949F3E /* Build configuration list for PBXAggregateTarget "NMapsGeometry" */;
+			buildPhases = (
+				CD03D6A3A4C2C6D9335EBBBE28D102C6 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = NMapsGeometry;
+		};
+		8E049F5F4E3BDC647F924FEF22D49D90 /* NMapsMap */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6E00511E8FCF4FC8EC03C47CF3CFA1A /* Build configuration list for PBXAggregateTarget "NMapsMap" */;
+			buildPhases = (
+				1E5BF39CD05368A929B51281C06ABA36 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				AE36269E4B51E7A3D7FEAAA1BA4008C8 /* PBXTargetDependency */,
+			);
+			name = NMapsMap;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0296D348C58CA4A0F54E5F3BC0E4616D /* flutter_naver_map-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2622CD24B67C3843A0C45768A13CC85F /* flutter_naver_map-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		228C839AECB500AFAC5DA4C19BFAD74A /* NaverMarkersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890E66E9852C40B3FEAE7603380EC08 /* NaverMarkersController.swift */; };
+		2412215A514E753765B6F34E676AFA1D /* naver_map_plugin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72305C5052136FD0B616C96DADEC06E4 /* naver_map_plugin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24AFA5F37B139C2E926A4494FF6C1623 /* NaverPathsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8085303F9342F867863D5BEF8AB32C89 /* NaverPathsController.swift */; };
+		270DE2F3328215C4BADA94BB02199AA4 /* NaverMapPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E15AB53B796E893245E82BF3A65D04 /* NaverMapPlugin.m */; };
+		27F664604F80A78B04B45950A0509B20 /* SwiftNaverMapPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262BB53417BBB1AB140B762A7B3673C /* SwiftNaverMapPlugin.swift */; };
+		3CE2AA7820E3C49F21503D410CE615AF /* NaverMapPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D50F8816C0AE8601BA00CA28D003E9 /* NaverMapPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F34160B8AE6A792910725CD4DC6D3E6 /* NaverMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764E9B288EF45B8B67932574D9F7255C /* NaverMapController.swift */; };
+		43E074CFA080490F1AEA75ACD498A421 /* NaverPolygonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AC0AFFF643331DE6904892E078232A /* NaverPolygonController.swift */; };
+		5A16C2491971E5479DED20AF752BF5FA /* NaverMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A31CE3546055A1BFBA604382E1C41 /* NaverMapController.swift */; };
+		5E5DCF64A4501D7F4CBDCBD6E826BAEE /* NaverPolygonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43145187D1EAEA1EE95E22404EE57D /* NaverPolygonController.swift */; };
+		65985DC918BE6CCB50C2FC4B65303614 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */; };
+		6A0CC088740071EF8BF285D30EB78F19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6CF70005E5B1F80494976406A16F62D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		734DF8FDAAACE25D69CE8319465E6BAB /* JsonConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5C3D4C3C3A057FFDEBF972ADEF2C4 /* JsonConversion.swift */; };
+		831F8A9BEFAF753E1D51125D9BB9CF79 /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E74F8F115102ACDCD05E3DC678EC279 /* NaverCircleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACBD0459C90BBC054BA62A88649F1CB /* NaverCircleController.swift */; };
+		A56E2058451E17446CD6E9D40F49F1BE /* NaverMapFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E037E9B28E7A2C96B53BF82C3FCBD9 /* NaverMapFactory.swift */; };
+		ADAD9D7F81CB5E895ADB29F7532F6D29 /* NaverCircleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CC8C2F011EC7AEA7E6D970E3FC474D /* NaverCircleController.swift */; };
+		B10A24081B81D3B71FA4381A81F45865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BD10D3DE49235D481102DA9A41FBE19D /* NaverMapFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA14278E254DADAA289298B0665C1B9 /* NaverMapFactory.swift */; };
+		BE8EC6A81E863ACA45E97BA93BE82BCB /* JsonConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF341EC900BAA739199F7E93DA2F1A92 /* JsonConversion.swift */; };
+		C1F071539C0B6BABA2638E099365ABF6 /* NaverMapPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE51C7739D482C012E33A42EFAA95DC /* NaverMapPlugin.m */; };
+		D14C96BBA070EBA9AC3FB58B76FEB365 /* NaverMarkersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8B60E38A5DD4A61CF3129BC61B4C43 /* NaverMarkersController.swift */; };
+		DA94CA3845D203303A88BDBCC719EC3D /* naver_map_plugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A9719B615F17CE1596EC9536EE5D4B /* naver_map_plugin-dummy.m */; };
+		DB786C1312FEFC86107E0BEFAC18D969 /* SwiftNaverMapPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377FDCBCBCB2202906444776D25CAC47 /* SwiftNaverMapPlugin.swift */; };
+		E26B8B0BC103F21FC1787D03572090E6 /* flutter_naver_map-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8EABB1736F54BDEF19BCA35AAE5EF7 /* flutter_naver_map-dummy.m */; };
+		EC44194120233378BFE11EF91EEDEB57 /* NaverPathsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA25710D19BCC975CEFBA141DBE0365 /* NaverPathsController.swift */; };
+		ED6FFC282EA7153E6107473148B8B0A6 /* NaverMapPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8C01B78B076A9A3A2CF0919F1D9B9B /* NaverMapPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BE169EF41817A52DD1E364326C90EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72E614C823EA09AB1AAE80D5CD8A4C58;
+			remoteInfo = NMapsGeometry;
+		};
+		0F5320C0DBF0B3B7095C414AFE4E451D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E049F5F4E3BDC647F924FEF22D49D90;
+			remoteInfo = NMapsMap;
+		};
+		1DF89725835D52F786FB92575DAB59A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		66A12F7F306F1F532DB8332C1B761A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFEB8E644AE5668FEFBE9DCE844A2D3;
+			remoteInfo = flutter_naver_map;
+		};
+		9255EE2211BAF56EDF762CA9230B95BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E049F5F4E3BDC647F924FEF22D49D90;
+			remoteInfo = NMapsMap;
+		};
+		B9F63A54A3D9763A4346849EE4752468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		C65DA13982D132E75442AF3E285D8131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E6DC727CC1BA5E8219F668F77A90590;
+			remoteInfo = naver_map_plugin;
+		};
+		E39A7B5064C911EA5EB7BC4EA1724EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		ED31DCDE63E1BBD21F0D191CE632B1D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72E614C823EA09AB1AAE80D5CD8A4C58;
+			remoteInfo = NMapsGeometry;
+		};
+		EF9F37D6CEE7E6B19FC913D82C30DCD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E049F5F4E3BDC647F924FEF22D49D90;
+			remoteInfo = NMapsMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E15AB53B796E893245E82BF3A65D04 /* NaverMapPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NaverMapPlugin.m; path = "../../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios/Classes/NaverMapPlugin.m"; sourceTree = "<group>"; };
+		023E555B524D0ECC660BFCEDDD78A1DD /* naver_map_plugin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = naver_map_plugin.podspec; path = "../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios/naver_map_plugin.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		036802BC30DD2E372A9F3D3866CF1CD1 /* flutter_naver_map-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_naver_map-prefix.pch"; sourceTree = "<group>"; };
+		0970046F7060534BA9B286629593DA0C /* NMapsMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMapsMap.debug.xcconfig; sourceTree = "<group>"; };
+		14693E4A1076CBFC7516DD732DB57775 /* flutter_naver_map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_naver_map.debug.xcconfig; sourceTree = "<group>"; };
+		1A326C79B1B897CBCFDC36BFF5174A43 /* NMapsGeometry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMapsGeometry.debug.xcconfig; sourceTree = "<group>"; };
+		225CA81CD126C3F421A937E92BC182A7 /* naver_map_plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = naver_map_plugin; path = naver_map_plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2622CD24B67C3843A0C45768A13CC85F /* flutter_naver_map-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_naver_map-umbrella.h"; sourceTree = "<group>"; };
+		29CC8C2F011EC7AEA7E6D970E3FC474D /* NaverCircleController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverCircleController.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios/Classes/src/NaverCircleController.swift"; sourceTree = "<group>"; };
+		2E8C01B78B076A9A3A2CF0919F1D9B9B /* NaverMapPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NaverMapPlugin.h; path = "../../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios/Classes/NaverMapPlugin.h"; sourceTree = "<group>"; };
+		317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		377FDCBCBCB2202906444776D25CAC47 /* SwiftNaverMapPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftNaverMapPlugin.swift; path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios/Classes/SwiftNaverMapPlugin.swift"; sourceTree = "<group>"; };
+		3881BCA5FE9D9347927C0ADB1101BF2B /* flutter_naver_map.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = flutter_naver_map.modulemap; sourceTree = "<group>"; };
+		3A43145187D1EAEA1EE95E22404EE57D /* NaverPolygonController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverPolygonController.swift; path = "../../../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios/Classes/src/NaverPolygonController.swift"; sourceTree = "<group>"; };
+		485FAE6318CCD7779377C7AA4A7B3528 /* NMapsGeometry.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = NMapsGeometry.xcframework; path = framework/NMapsGeometry.xcframework; sourceTree = "<group>"; };
+		4B02608CE48552EC00F6251F6C270BF3 /* flutter_naver_map.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_naver_map.podspec; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios/flutter_naver_map.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4F0C55D25B9900DE7936740E68EFDFCF /* NMapsMap.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = NMapsMap.xcframework; path = framework/NMapsMap.xcframework; sourceTree = "<group>"; };
+		50A9719B615F17CE1596EC9536EE5D4B /* naver_map_plugin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "naver_map_plugin-dummy.m"; sourceTree = "<group>"; };
+		51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
+		51D934C4A40A901FD3C7E638B9197F55 /* naver_map_plugin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = naver_map_plugin.modulemap; sourceTree = "<group>"; };
+		53BB18D8DE6118DEC0AAC01027DBECA8 /* NMapsMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMapsMap.release.xcconfig; sourceTree = "<group>"; };
+		58B8BA4639EC3E093B52BD006C72EC42 /* naver_map_plugin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "naver_map_plugin-Info.plist"; sourceTree = "<group>"; };
+		64A8AF5C3097E474E707216D5AF986FD /* flutter_naver_map-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "flutter_naver_map-Info.plist"; sourceTree = "<group>"; };
+		669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Runner"; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5A49AD0BD39DF047CC97F93F217F6F /* naver_map_plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = naver_map_plugin.release.xcconfig; sourceTree = "<group>"; };
+		72305C5052136FD0B616C96DADEC06E4 /* naver_map_plugin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "naver_map_plugin-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		764E9B288EF45B8B67932574D9F7255C /* NaverMapController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverMapController.swift; path = "../../../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios/Classes/src/NaverMapController.swift"; sourceTree = "<group>"; };
+		77AC0AFFF643331DE6904892E078232A /* NaverPolygonController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverPolygonController.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios/Classes/src/NaverPolygonController.swift"; sourceTree = "<group>"; };
+		7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		7BE8A7509DB7208BADE3AC3C87DDC78E /* naver_map_plugin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "naver_map_plugin-prefix.pch"; sourceTree = "<group>"; };
+		7E8B60E38A5DD4A61CF3129BC61B4C43 /* NaverMarkersController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverMarkersController.swift; path = "../../../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios/Classes/src/NaverMarkersController.swift"; sourceTree = "<group>"; };
+		7F89040B8DC7FC773592AA5FE110E9DF /* NMapsGeometry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMapsGeometry.release.xcconfig; sourceTree = "<group>"; };
+		7F8EABB1736F54BDEF19BCA35AAE5EF7 /* flutter_naver_map-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_naver_map-dummy.m"; sourceTree = "<group>"; };
+		8085303F9342F867863D5BEF8AB32C89 /* NaverPathsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverPathsController.swift; path = "../../../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios/Classes/src/NaverPathsController.swift"; sourceTree = "<group>"; };
+		830A31CE3546055A1BFBA604382E1C41 /* NaverMapController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverMapController.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios/Classes/src/NaverMapController.swift"; sourceTree = "<group>"; };
+		8761BCE8B53706FFFF977ED367747CA2 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		8ACBD0459C90BBC054BA62A88649F1CB /* NaverCircleController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverCircleController.swift; path = "../../../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios/Classes/src/NaverCircleController.swift"; sourceTree = "<group>"; };
+		925EB752D9F6EB1C2281149E09F69BF2 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
+		983FCEF2808419DF12F69DFEBD7685D4 /* NMapsMap-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "NMapsMap-xcframeworks.sh"; sourceTree = "<group>"; };
+		98D50F8816C0AE8601BA00CA28D003E9 /* NaverMapPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NaverMapPlugin.h; path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios/Classes/NaverMapPlugin.h"; sourceTree = "<group>"; };
+		9CA14278E254DADAA289298B0665C1B9 /* NaverMapFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverMapFactory.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios/Classes/src/NaverMapFactory.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		A42053435ABF84A36BAC8DCA040662AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/LICENSE"; sourceTree = "<group>"; };
+		A890E66E9852C40B3FEAE7603380EC08 /* NaverMarkersController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverMarkersController.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios/Classes/src/NaverMarkersController.swift"; sourceTree = "<group>"; };
+		A9E5C3D4C3C3A057FFDEBF972ADEF2C4 /* JsonConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonConversion.swift; path = "../../../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios/Classes/src/JsonConversion.swift"; sourceTree = "<group>"; };
+		B262BB53417BBB1AB140B762A7B3673C /* SwiftNaverMapPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftNaverMapPlugin.swift; path = "../../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios/Classes/SwiftNaverMapPlugin.swift"; sourceTree = "<group>"; };
+		B466C705C335723CE9110D3BDEBD5048 /* flutter_naver_map */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = flutter_naver_map; path = flutter_naver_map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65C475C05560F8FD3FA61F582FCD980 /* flutter_naver_map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_naver_map.release.xcconfig; sourceTree = "<group>"; };
+		BFA25710D19BCC975CEFBA141DBE0365 /* NaverPathsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverPathsController.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios/Classes/src/NaverPathsController.swift"; sourceTree = "<group>"; };
+		C52E43705DC2D76951D9DAC83C3D653C /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		CFE51C7739D482C012E33A42EFAA95DC /* NaverMapPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NaverMapPlugin.m; path = "../../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios/Classes/NaverMapPlugin.m"; sourceTree = "<group>"; };
+		D2D20219CBBD00E5EAC10917704EF9B5 /* naver_map_plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = naver_map_plugin.debug.xcconfig; sourceTree = "<group>"; };
+		D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		D940A80B4777D47D855F88F36BA83311 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/LICENSE"; sourceTree = "<group>"; };
+		D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		E101130795B024FC83E4F774AA209B18 /* NMapsGeometry-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "NMapsGeometry-xcframeworks.sh"; sourceTree = "<group>"; };
+		EF341EC900BAA739199F7E93DA2F1A92 /* JsonConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonConversion.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios/Classes/src/JsonConversion.swift"; sourceTree = "<group>"; };
+		F3E037E9B28E7A2C96B53BF82C3FCBD9 /* NaverMapFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaverMapFactory.swift; path = "../../../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios/Classes/src/NaverMapFactory.swift"; sourceTree = "<group>"; };
+		F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B344FCDF62CD5E7BF885B5D87D974CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10A24081B81D3B71FA4381A81F45865 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6088DE1C7F18CE22FD37ED343466D1C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0CC088740071EF8BF285D30EB78F19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FBC4CC6036F583893DE1AF4A461E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF70005E5B1F80494976406A16F62D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07535D39C4EC4F5EADD79D8055F701C5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EF341EC900BAA739199F7E93DA2F1A92 /* JsonConversion.swift */,
+				29CC8C2F011EC7AEA7E6D970E3FC474D /* NaverCircleController.swift */,
+				830A31CE3546055A1BFBA604382E1C41 /* NaverMapController.swift */,
+				9CA14278E254DADAA289298B0665C1B9 /* NaverMapFactory.swift */,
+				A890E66E9852C40B3FEAE7603380EC08 /* NaverMarkersController.swift */,
+				BFA25710D19BCC975CEFBA141DBE0365 /* NaverPathsController.swift */,
+				77AC0AFFF643331DE6904892E078232A /* NaverPolygonController.swift */,
+			);
+			name = src;
+			path = src;
+			sourceTree = "<group>";
+		};
+		0E5F138646C23002170F4200226CE2CD /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				6BE73A12C0B220CCCB5298753AD49683 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0FB366890DDFD231BBD9DE6AF2A90C5B /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				2CDB7CC377941B26CD4C990A57A2DEB9 /* Pod */,
+				1B615C86A36E1EA05C6AE9008B5E95D2 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../Flutter;
+			sourceTree = "<group>";
+		};
+		1633EC362C90338D3CCDC535E3BE9199 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				574F668A57F6FAB8306D3F7D1602F0AB /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		169A894F474781F666BE8D90408D3828 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E101130795B024FC83E4F774AA209B18 /* NMapsGeometry-xcframeworks.sh */,
+				1A326C79B1B897CBCFDC36BFF5174A43 /* NMapsGeometry.debug.xcconfig */,
+				7F89040B8DC7FC773592AA5FE110E9DF /* NMapsGeometry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NMapsGeometry";
+			sourceTree = "<group>";
+		};
+		19D47C13308B3EA14278724E982688CA /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				AFFBFAFC9E9FA33077DEC4696C3FD527 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../.pub-cache/git/naver_map_plugin-d6029c020e13c926ff5f94b445b4f65abb48b85f/ios";
+			sourceTree = "<group>";
+		};
+		1B615C86A36E1EA05C6AE9008B5E95D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				925EB752D9F6EB1C2281149E09F69BF2 /* Flutter.debug.xcconfig */,
+				8761BCE8B53706FFFF977ED367747CA2 /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		25B56312D79088C322C5B52238334BCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FE65985C01476131D3AC219F92CC3CF /* NMapsGeometry */,
+				487B37947971C0C75B135158191A5547 /* NMapsMap */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		29035BD37C9511CD6E53C9406591AEBC /* flutter_naver_map */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BD658541FDD6E2B2847E217BE279C /* ios */,
+			);
+			name = flutter_naver_map;
+			path = flutter_naver_map;
+			sourceTree = "<group>";
+		};
+		2CDB7CC377941B26CD4C990A57A2DEB9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C52E43705DC2D76951D9DAC83C3D653C /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2ED541A35C7BD1778556550CF4846D2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F0C55D25B9900DE7936740E68EFDFCF /* NMapsMap.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FE65985C01476131D3AC219F92CC3CF /* NMapsGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				DC955F600E602E5041F1000DC79753BB /* Frameworks */,
+				169A894F474781F666BE8D90408D3828 /* Support Files */,
+			);
+			name = NMapsGeometry;
+			path = NMapsGeometry;
+			sourceTree = "<group>";
+		};
+		36B6A18D1B37516F0275C3DB162D21B2 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				86555573DECF4003FC5BBBDFB238FF55 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		3A6615179026E62F3F61DA5F0BF424E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B466C705C335723CE9110D3BDEBD5048 /* flutter_naver_map */,
+				225CA81CD126C3F421A937E92BC182A7 /* naver_map_plugin */,
+				669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F694CE432EE277DBD4B209BDC05C0CB /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				5B7841033D7000B976DEA7D79440421A /* GitHub */,
+			);
+			name = Documents;
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		42B8AEC777F25CAA6DC0EF82679604AA /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				84DF7EF09984F3D60F9688BA69B43AB0 /* nomadmap */,
+			);
+			name = Flutter;
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		487B37947971C0C75B135158191A5547 /* NMapsMap */ = {
+			isa = PBXGroup;
+			children = (
+				2ED541A35C7BD1778556550CF4846D2F /* Frameworks */,
+				A3E28C362EAC5C5A2CCC22EE5E2FDA30 /* Support Files */,
+			);
+			name = NMapsMap;
+			path = NMapsMap;
+			sourceTree = "<group>";
+		};
+		48E3881C02531862A1D2F9315611479B /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				D6F16C5B8FEC1C0C617E1D1928419D3C /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		491BD4A4E3D9709DE0FC4C10688C4A08 /* naver_map_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				D80FCC6C1CC88EDFACB5BCF61F130783 /* ios */,
+			);
+			name = naver_map_plugin;
+			path = naver_map_plugin;
+			sourceTree = "<group>";
+		};
+		4A1593ACBD05F7B649B585B89B361195 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				A828BAE517E4C55A8F3C4C390149F347 /* GitHub */,
+			);
+			name = Documents;
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		4CF312900C0B59E1EB008812C91A23CB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A9E5C3D4C3C3A057FFDEBF972ADEF2C4 /* JsonConversion.swift */,
+				8ACBD0459C90BBC054BA62A88649F1CB /* NaverCircleController.swift */,
+				764E9B288EF45B8B67932574D9F7255C /* NaverMapController.swift */,
+				F3E037E9B28E7A2C96B53BF82C3FCBD9 /* NaverMapFactory.swift */,
+				7E8B60E38A5DD4A61CF3129BC61B4C43 /* NaverMarkersController.swift */,
+				8085303F9342F867863D5BEF8AB32C89 /* NaverPathsController.swift */,
+				3A43145187D1EAEA1EE95E22404EE57D /* NaverPolygonController.swift */,
+			);
+			name = src;
+			path = src;
+			sourceTree = "<group>";
+		};
+		56338A8574CE356490FA56B1D865B0FD /* naver_map_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				19D47C13308B3EA14278724E982688CA /* .. */,
+				DEB2458F155277DD1CDA92DE7358AC5D /* Pod */,
+				B6072BA9BC6E21C9652272FFEA27CF85 /* Support Files */,
+			);
+			name = naver_map_plugin;
+			path = ../.symlinks/plugins/naver_map_plugin/ios;
+			sourceTree = "<group>";
+		};
+		574F668A57F6FAB8306D3F7D1602F0AB /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				491BD4A4E3D9709DE0FC4C10688C4A08 /* naver_map_plugin */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B7841033D7000B976DEA7D79440421A /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				B9796BEF71A74B61867F44D10E2BE17C /* Flutter */,
+			);
+			name = GitHub;
+			path = GitHub;
+			sourceTree = "<group>";
+		};
+		6BE73A12C0B220CCCB5298753AD49683 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				4A1593ACBD05F7B649B585B89B361195 /* Documents */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B0D67477903E1EB8D6A9F9AF51BC5CC /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B0D67477903E1EB8D6A9F9AF51BC5CC /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				F49C32B3B8CF59AB437BFD7314674868 /* Pods-Runner.modulemap */,
+				C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */,
+				D9F2B4CB813B4BDC4D164C6E0868930A /* Pods-Runner-acknowledgements.plist */,
+				7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */,
+				317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */,
+				51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */,
+				96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */,
+				CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */,
+				9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */,
+				D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		84DF7EF09984F3D60F9688BA69B43AB0 /* nomadmap */ = {
+			isa = PBXGroup;
+			children = (
+				8C6B9161235A50AC0B467BD29926E14C /* ios */,
+			);
+			name = nomadmap;
+			path = nomadmap;
+			sourceTree = "<group>";
+		};
+		85E2587816EC49246BBA4A5475AC74EB /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				A11B4D93FAE36F19F5C1DBDEE62C8C16 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_naver_map-0.10.7/ios";
+			sourceTree = "<group>";
+		};
+		86555573DECF4003FC5BBBDFB238FF55 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				9435C139C09ABD91E038744C44A384D9 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		87857FC737A223A406B52DC69BBF60FC /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				48E3881C02531862A1D2F9315611479B /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8C6B9161235A50AC0B467BD29926E14C /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				1633EC362C90338D3CCDC535E3BE9199 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		91CBD6FC7963898BD91C05B6F87A6D42 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FB366890DDFD231BBD9DE6AF2A90C5B /* Flutter */,
+				F7AEE8D35AB5E9E13A0C5898196CDECE /* flutter_naver_map */,
+				56338A8574CE356490FA56B1D865B0FD /* naver_map_plugin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9435C139C09ABD91E038744C44A384D9 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				29035BD37C9511CD6E53C9406591AEBC /* flutter_naver_map */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		A11B4D93FAE36F19F5C1DBDEE62C8C16 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				87857FC737A223A406B52DC69BBF60FC /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A1CE71722333F8273A71DE282A32A55A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4B02608CE48552EC00F6251F6C270BF3 /* flutter_naver_map.podspec */,
+				A42053435ABF84A36BAC8DCA040662AC /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A3E28C362EAC5C5A2CCC22EE5E2FDA30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				983FCEF2808419DF12F69DFEBD7685D4 /* NMapsMap-xcframeworks.sh */,
+				0970046F7060534BA9B286629593DA0C /* NMapsMap.debug.xcconfig */,
+				53BB18D8DE6118DEC0AAC01027DBECA8 /* NMapsMap.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NMapsMap";
+			sourceTree = "<group>";
+		};
+		A828BAE517E4C55A8F3C4C390149F347 /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				42B8AEC777F25CAA6DC0EF82679604AA /* Flutter */,
+			);
+			name = GitHub;
+			path = GitHub;
+			sourceTree = "<group>";
+		};
+		A9BB5F2757B0CEA74A6529AEB2EF6FC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E8C01B78B076A9A3A2CF0919F1D9B9B /* NaverMapPlugin.h */,
+				01E15AB53B796E893245E82BF3A65D04 /* NaverMapPlugin.m */,
+				B262BB53417BBB1AB140B762A7B3673C /* SwiftNaverMapPlugin.swift */,
+				4CF312900C0B59E1EB008812C91A23CB /* src */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AFFBFAFC9E9FA33077DEC4696C3FD527 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				E79BFB7EB625484199891A27E7E98E29 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B1C85292F7F92F87BC5525F8895A5498 /* nomadmap */ = {
+			isa = PBXGroup;
+			children = (
+				36B6A18D1B37516F0275C3DB162D21B2 /* ios */,
+			);
+			name = nomadmap;
+			path = nomadmap;
+			sourceTree = "<group>";
+		};
+		B5CC5C8607B7215BA0AED589836D9804 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3881BCA5FE9D9347927C0ADB1101BF2B /* flutter_naver_map.modulemap */,
+				7F8EABB1736F54BDEF19BCA35AAE5EF7 /* flutter_naver_map-dummy.m */,
+				64A8AF5C3097E474E707216D5AF986FD /* flutter_naver_map-Info.plist */,
+				036802BC30DD2E372A9F3D3866CF1CD1 /* flutter_naver_map-prefix.pch */,
+				2622CD24B67C3843A0C45768A13CC85F /* flutter_naver_map-umbrella.h */,
+				14693E4A1076CBFC7516DD732DB57775 /* flutter_naver_map.debug.xcconfig */,
+				B65C475C05560F8FD3FA61F582FCD980 /* flutter_naver_map.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/flutter_naver_map";
+			sourceTree = "<group>";
+		};
+		B6072BA9BC6E21C9652272FFEA27CF85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51D934C4A40A901FD3C7E638B9197F55 /* naver_map_plugin.modulemap */,
+				50A9719B615F17CE1596EC9536EE5D4B /* naver_map_plugin-dummy.m */,
+				58B8BA4639EC3E093B52BD006C72EC42 /* naver_map_plugin-Info.plist */,
+				7BE8A7509DB7208BADE3AC3C87DDC78E /* naver_map_plugin-prefix.pch */,
+				72305C5052136FD0B616C96DADEC06E4 /* naver_map_plugin-umbrella.h */,
+				D2D20219CBBD00E5EAC10917704EF9B5 /* naver_map_plugin.debug.xcconfig */,
+				6B5A49AD0BD39DF047CC97F93F217F6F /* naver_map_plugin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/naver_map_plugin";
+			sourceTree = "<group>";
+		};
+		B9796BEF71A74B61867F44D10E2BE17C /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				B1C85292F7F92F87BC5525F8895A5498 /* nomadmap */,
+			);
+			name = Flutter;
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				91CBD6FC7963898BD91C05B6F87A6D42 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				25B56312D79088C322C5B52238334BCC /* Pods */,
+				3A6615179026E62F3F61DA5F0BF424E3 /* Products */,
+				791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6F16C5B8FEC1C0C617E1D1928419D3C /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				EA74BC8B73A94693B17B84CB61935769 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D80FCC6C1CC88EDFACB5BCF61F130783 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				A9BB5F2757B0CEA74A6529AEB2EF6FC7 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		DC955F600E602E5041F1000DC79753BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				485FAE6318CCD7779377C7AA4A7B3528 /* NMapsGeometry.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEB2458F155277DD1CDA92DE7358AC5D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D940A80B4777D47D855F88F36BA83311 /* LICENSE */,
+				023E555B524D0ECC660BFCEDDD78A1DD /* naver_map_plugin.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E79BFB7EB625484199891A27E7E98E29 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				0E5F138646C23002170F4200226CE2CD /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA74BC8B73A94693B17B84CB61935769 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				3F694CE432EE277DBD4B209BDC05C0CB /* Documents */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F699E64D71E1E5A418F5AD25D06F9CBD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				98D50F8816C0AE8601BA00CA28D003E9 /* NaverMapPlugin.h */,
+				CFE51C7739D482C012E33A42EFAA95DC /* NaverMapPlugin.m */,
+				377FDCBCBCB2202906444776D25CAC47 /* SwiftNaverMapPlugin.swift */,
+				07535D39C4EC4F5EADD79D8055F701C5 /* src */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F7AEE8D35AB5E9E13A0C5898196CDECE /* flutter_naver_map */ = {
+			isa = PBXGroup;
+			children = (
+				85E2587816EC49246BBA4A5475AC74EB /* .. */,
+				A1CE71722333F8273A71DE282A32A55A /* Pod */,
+				B5CC5C8607B7215BA0AED589836D9804 /* Support Files */,
+			);
+			name = flutter_naver_map;
+			path = ../.symlinks/plugins/flutter_naver_map/ios;
+			sourceTree = "<group>";
+		};
+		FC1BD658541FDD6E2B2847E217BE279C /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				F699E64D71E1E5A418F5AD25D06F9CBD /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07D0EDE72B796499E38FE6CDE4A8D4FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0296D348C58CA4A0F54E5F3BC0E4616D /* flutter_naver_map-umbrella.h in Headers */,
+				3CE2AA7820E3C49F21503D410CE615AF /* NaverMapPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0951F5BB2A3AD17C2E4547BAF09CF0BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2412215A514E753765B6F34E676AFA1D /* naver_map_plugin-umbrella.h in Headers */,
+				ED6FFC282EA7153E6107473148B8B0A6 /* NaverMapPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87F69A624BAD2754F34C496772FB751 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831F8A9BEFAF753E1D51125D9BB9CF79 /* Pods-Runner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E6DC727CC1BA5E8219F668F77A90590 /* naver_map_plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B277C5813D856B2BA719C466DA1511 /* Build configuration list for PBXNativeTarget "naver_map_plugin" */;
+			buildPhases = (
+				0951F5BB2A3AD17C2E4547BAF09CF0BB /* Headers */,
+				F1F5103A8DBE9396591FF6343B3DB9B9 /* Sources */,
+				1B344FCDF62CD5E7BF885B5D87D974CB /* Frameworks */,
+				C3A0437CA361962029E026E9E036CBA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C41F7ADCAFF40A11252A303637BB94B8 /* PBXTargetDependency */,
+				10033230D9982A52A8E1319E3D654D9E /* PBXTargetDependency */,
+			);
+			name = naver_map_plugin;
+			productName = naver_map_plugin;
+			productReference = 225CA81CD126C3F421A937E92BC182A7 /* naver_map_plugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AFEB8E644AE5668FEFBE9DCE844A2D3 /* flutter_naver_map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFB00524DD6497448DA63DFD57C1379 /* Build configuration list for PBXNativeTarget "flutter_naver_map" */;
+			buildPhases = (
+				07D0EDE72B796499E38FE6CDE4A8D4FF /* Headers */,
+				757D06FAE03B19F300ACA9E25AD7FDEA /* Sources */,
+				99FBC4CC6036F583893DE1AF4A461E1E /* Frameworks */,
+				0E47B2303B20766D0847CD1437C10D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEB270688EA6924CE2E36AE342FD497A /* PBXTargetDependency */,
+				49578B3DF667DBA058B9F4B94707A942 /* PBXTargetDependency */,
+			);
+			name = flutter_naver_map;
+			productName = flutter_naver_map;
+			productReference = B466C705C335723CE9110D3BDEBD5048 /* flutter_naver_map */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9C007C054EB88FC08A78B4F5CE135C /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				B87F69A624BAD2754F34C496772FB751 /* Headers */,
+				C236EB7AE3FD266DDBB166A2CDB093C2 /* Sources */,
+				6088DE1C7F18CE22FD37ED343466D1C0 /* Frameworks */,
+				E3A0DEB49052028993FCB44D1192926C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A1F3E99255EA71EF6757DD16D374F6 /* PBXTargetDependency */,
+				9B0168F5061A23735C09F490D2ECF789 /* PBXTargetDependency */,
+				DCE2F04B748B060F013EA3608360DE4F /* PBXTargetDependency */,
+				C8AE80E5CD040F3AE149D6FDA3CC7EC7 /* PBXTargetDependency */,
+				91CB1CB650FCE98583F15EFC1B8CBBEA /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = Pods_Runner;
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3A6615179026E62F3F61DA5F0BF424E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				8AFEB8E644AE5668FEFBE9DCE844A2D3 /* flutter_naver_map */,
+				6E6DC727CC1BA5E8219F668F77A90590 /* naver_map_plugin */,
+				72E614C823EA09AB1AAE80D5CD8A4C58 /* NMapsGeometry */,
+				8E049F5F4E3BDC647F924FEF22D49D90 /* NMapsMap */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E47B2303B20766D0847CD1437C10D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A0437CA361962029E026E9E036CBA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A0DEB49052028993FCB44D1192926C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E5BF39CD05368A929B51281C06ABA36 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NMapsMap/NMapsMap-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NMapsMap/NMapsMap-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/NMapsMap/NMapsMap-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD03D6A3A4C2C6D9335EBBBE28D102C6 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NMapsGeometry/NMapsGeometry-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NMapsGeometry/NMapsGeometry-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/NMapsGeometry/NMapsGeometry-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		757D06FAE03B19F300ACA9E25AD7FDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26B8B0BC103F21FC1787D03572090E6 /* flutter_naver_map-dummy.m in Sources */,
+				BE8EC6A81E863ACA45E97BA93BE82BCB /* JsonConversion.swift in Sources */,
+				ADAD9D7F81CB5E895ADB29F7532F6D29 /* NaverCircleController.swift in Sources */,
+				5A16C2491971E5479DED20AF752BF5FA /* NaverMapController.swift in Sources */,
+				BD10D3DE49235D481102DA9A41FBE19D /* NaverMapFactory.swift in Sources */,
+				C1F071539C0B6BABA2638E099365ABF6 /* NaverMapPlugin.m in Sources */,
+				228C839AECB500AFAC5DA4C19BFAD74A /* NaverMarkersController.swift in Sources */,
+				EC44194120233378BFE11EF91EEDEB57 /* NaverPathsController.swift in Sources */,
+				43E074CFA080490F1AEA75ACD498A421 /* NaverPolygonController.swift in Sources */,
+				DB786C1312FEFC86107E0BEFAC18D969 /* SwiftNaverMapPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C236EB7AE3FD266DDBB166A2CDB093C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65985DC918BE6CCB50C2FC4B65303614 /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F5103A8DBE9396591FF6343B3DB9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734DF8FDAAACE25D69CE8319465E6BAB /* JsonConversion.swift in Sources */,
+				DA94CA3845D203303A88BDBCC719EC3D /* naver_map_plugin-dummy.m in Sources */,
+				8E74F8F115102ACDCD05E3DC678EC279 /* NaverCircleController.swift in Sources */,
+				3F34160B8AE6A792910725CD4DC6D3E6 /* NaverMapController.swift in Sources */,
+				A56E2058451E17446CD6E9D40F49F1BE /* NaverMapFactory.swift in Sources */,
+				270DE2F3328215C4BADA94BB02199AA4 /* NaverMapPlugin.m in Sources */,
+				D14C96BBA070EBA9AC3FB58B76FEB365 /* NaverMarkersController.swift in Sources */,
+				24AFA5F37B139C2E926A4494FF6C1623 /* NaverPathsController.swift in Sources */,
+				5E5DCF64A4501D7F4CBDCBD6E826BAEE /* NaverPolygonController.swift in Sources */,
+				27F664604F80A78B04B45950A0509B20 /* SwiftNaverMapPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10033230D9982A52A8E1319E3D654D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMapsMap;
+			target = 8E049F5F4E3BDC647F924FEF22D49D90 /* NMapsMap */;
+			targetProxy = 0F5320C0DBF0B3B7095C414AFE4E451D /* PBXContainerItemProxy */;
+		};
+		49578B3DF667DBA058B9F4B94707A942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMapsMap;
+			target = 8E049F5F4E3BDC647F924FEF22D49D90 /* NMapsMap */;
+			targetProxy = EF9F37D6CEE7E6B19FC913D82C30DCD2 /* PBXContainerItemProxy */;
+		};
+		55A1F3E99255EA71EF6757DD16D374F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 1DF89725835D52F786FB92575DAB59A4 /* PBXContainerItemProxy */;
+		};
+		91CB1CB650FCE98583F15EFC1B8CBBEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = naver_map_plugin;
+			target = 6E6DC727CC1BA5E8219F668F77A90590 /* naver_map_plugin */;
+			targetProxy = C65DA13982D132E75442AF3E285D8131 /* PBXContainerItemProxy */;
+		};
+		9B0168F5061A23735C09F490D2ECF789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMapsGeometry;
+			target = 72E614C823EA09AB1AAE80D5CD8A4C58 /* NMapsGeometry */;
+			targetProxy = ED31DCDE63E1BBD21F0D191CE632B1D5 /* PBXContainerItemProxy */;
+		};
+		AE36269E4B51E7A3D7FEAAA1BA4008C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMapsGeometry;
+			target = 72E614C823EA09AB1AAE80D5CD8A4C58 /* NMapsGeometry */;
+			targetProxy = 0BE169EF41817A52DD1E364326C90EED /* PBXContainerItemProxy */;
+		};
+		BEB270688EA6924CE2E36AE342FD497A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = E39A7B5064C911EA5EB7BC4EA1724EAC /* PBXContainerItemProxy */;
+		};
+		C41F7ADCAFF40A11252A303637BB94B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = B9F63A54A3D9763A4346849EE4752468 /* PBXContainerItemProxy */;
+		};
+		C8AE80E5CD040F3AE149D6FDA3CC7EC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = flutter_naver_map;
+			target = 8AFEB8E644AE5668FEFBE9DCE844A2D3 /* flutter_naver_map */;
+			targetProxy = 66A12F7F306F1F532DB8332C1B761A0A /* PBXContainerItemProxy */;
+		};
+		DCE2F04B748B060F013EA3608360DE4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMapsMap;
+			target = 8E049F5F4E3BDC647F924FEF22D49D90 /* NMapsMap */;
+			targetProxy = 9255EE2211BAF56EDF762CA9230B95BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		123B0D65A35211FC43B8BEE770443D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8761BCE8B53706FFFF977ED367747CA2 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		159C8AFA5F0F3EEAE52DCAFD0BEFB23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5A49AD0BD39DF047CC97F93F217F6F /* naver_map_plugin.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/naver_map_plugin/naver_map_plugin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/naver_map_plugin/naver_map_plugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/naver_map_plugin/naver_map_plugin.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = naver_map_plugin;
+				PRODUCT_NAME = naver_map_plugin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A2EDE806C1320F0A4CC389402091728 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65C475C05560F8FD3FA61F582FCD980 /* flutter_naver_map.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_naver_map/flutter_naver_map-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/flutter_naver_map/flutter_naver_map-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/flutter_naver_map/flutter_naver_map.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = flutter_naver_map;
+				PRODUCT_NAME = flutter_naver_map;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		2B8C0A7C83B15F86CB7210A83705A343 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F89040B8DC7FC773592AA5FE110E9DF /* NMapsGeometry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		42301C4860DDC892683CCE0A4E00E272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65C475C05560F8FD3FA61F582FCD980 /* flutter_naver_map.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_naver_map/flutter_naver_map-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/flutter_naver_map/flutter_naver_map-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/flutter_naver_map/flutter_naver_map.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = flutter_naver_map;
+				PRODUCT_NAME = flutter_naver_map;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50BB9D400EC533CDA33DF1D23E1BB58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0970046F7060534BA9B286629593DA0C /* NMapsMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55D6A62F25D3ABB5E5B5149716514220 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5A49AD0BD39DF047CC97F93F217F6F /* naver_map_plugin.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/naver_map_plugin/naver_map_plugin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/naver_map_plugin/naver_map_plugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/naver_map_plugin/naver_map_plugin.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = naver_map_plugin;
+				PRODUCT_NAME = naver_map_plugin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		72C8FFFB2BE5C052B37FEB60E6E26A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D20219CBBD00E5EAC10917704EF9B5 /* naver_map_plugin.debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/naver_map_plugin/naver_map_plugin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/naver_map_plugin/naver_map_plugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/naver_map_plugin/naver_map_plugin.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = naver_map_plugin;
+				PRODUCT_NAME = naver_map_plugin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FA0678632B920AAD9B0731C50D176A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14693E4A1076CBFC7516DD732DB57775 /* flutter_naver_map.debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_naver_map/flutter_naver_map-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/flutter_naver_map/flutter_naver_map-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/flutter_naver_map/flutter_naver_map.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = flutter_naver_map;
+				PRODUCT_NAME = flutter_naver_map;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9498D2532E60DBDF41603C51B60E35E8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8761BCE8B53706FFFF977ED367747CA2 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		A045C7A6D99F4F60840B1F19D32848E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925EB752D9F6EB1C2281149E09F69BF2 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A43130C32318E5B0099A82AEF0813AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF6BE67BB8BE76649350D73447A12570 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BB18D8DE6118DEC0AAC01027DBECA8 /* NMapsMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		B0CE4D1E4EF6DD6A8535E455B7D46676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F89040B8DC7FC773592AA5FE110E9DF /* NMapsGeometry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2B525649BC3FEA41E473CACA08742A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B9D4E1E67193A716AAA2B73ECB71AE2D /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/usr/local/Caskroom/flutter/3.7.7/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-Runner/Pods-Runner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Profile;
+		};
+		BC93D0EB4B7AF5955FCA4D3B06A52459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BB18D8DE6118DEC0AAC01027DBECA8 /* NMapsMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCF364D2CA5F270CAD355FD2FAFE3B13 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		F6ABE222905A67DD8C1E124E05820B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A326C79B1B897CBCFDC36BFF5174A43 /* NMapsGeometry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29B277C5813D856B2BA719C466DA1511 /* Build configuration list for PBXNativeTarget "naver_map_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C8FFFB2BE5C052B37FEB60E6E26A74 /* Debug */,
+				55D6A62F25D3ABB5E5B5149716514220 /* Profile */,
+				159C8AFA5F0F3EEAE52DCAFD0BEFB23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				DCF364D2CA5F270CAD355FD2FAFE3B13 /* Profile */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFB00524DD6497448DA63DFD57C1379 /* Build configuration list for PBXNativeTarget "flutter_naver_map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA0678632B920AAD9B0731C50D176A4 /* Debug */,
+				2A2EDE806C1320F0A4CC389402091728 /* Profile */,
+				42301C4860DDC892683CCE0A4E00E272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A045C7A6D99F4F60840B1F19D32848E6 /* Debug */,
+				9498D2532E60DBDF41603C51B60E35E8 /* Profile */,
+				123B0D65A35211FC43B8BEE770443D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6A3CBBB7CA9C673954A5F8248949F3E /* Build configuration list for PBXAggregateTarget "NMapsGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6ABE222905A67DD8C1E124E05820B83 /* Debug */,
+				2B8C0A7C83B15F86CB7210A83705A343 /* Profile */,
+				B0CE4D1E4EF6DD6A8535E455B7D46676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E00511E8FCF4FC8EC03C47CF3CFA1A /* Build configuration list for PBXAggregateTarget "NMapsMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50BB9D400EC533CDA33DF1D23E1BB58C /* Debug */,
+				AF6BE67BB8BE76649350D73447A12570 /* Profile */,
+				BC93D0EB4B7AF5955FCA4D3B06A52459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9C007C054EB88FC08A78B4F5CE135C /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43130C32318E5B0099A82AEF0813AB7 /* Debug */,
+				B9D4E1E67193A716AAA2B73ECB71AE2D /* Profile */,
+				B2B525649BC3FEA41E473CACA08742A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

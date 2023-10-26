@@ -1,0 +1,1573 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9313583,
+                    37.5677541
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 프로토콜은 도면을 그릴 수 있을 정도로 너른 테이블을 가졌고, 자리마다 조명도 달려있어 집중하기 좋습니다.카페에서 로스팅도 직접하고 있으니 필터커피 추천드릴게요.<br><br>https://www.instagram.com/p/CXnIMIiPkCu/?utm_source=ig_web_copy_link<br><br>name: <br>description:",
+                "name": "프로토콜로스터스 Protocol Coffee Roasters"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9882438,
+                    37.569214
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 종각역의 디저트카페 그레인바운더리입니다. 지하부터 2층까지 자리가 넉넉한데 사람도 붐비지 않아요. 게다가 당이 떨어질 때는 맛있는 크럼블도 먹을 수 있답니다.<br><br>https://www.instagram.com/p/CXuwT5tPwJa/?utm_source=ig_web_copy_link<br><br>name: <br>description:",
+                "name": "그레인바운더리 Grain boundary"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0009643,
+                    37.5369732
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 커피는 맥심의 플래그십 스토어 맥심플랜트. 커피를 마시며 고뇌하고 휴식을 취할 수 있도록 만들어졌다고 합니다. 테이블, 콘센트 등 노트북 작업자에게 최적화된 공간으로 구성되어 있어요. <br><br>https://www.instagram.com/p/CYEDE-ovKu7/?utm_source=ig_web_copy_link<br><br>name: <br>description:",
+                "name": "맥심플랜트 Maxim Plant"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9704658,
+                    37.5490645
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 서울역에서 기차를 기다리면서 시간이 뜰 때 가기 좋은 곳으로 추천드려요. 콘센트를 갖춘 견고한 테이블과 푹신하면서도 튼튼한 의자가 있어 마음에 들었어요. <br><br>https://www.instagram.com/p/CYayKoNvB3Q/<br><br>name: <br>description:",
+                "name": "태극당 서울역점(3층) Taegeukdang"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9693623,
+                    37.5392479
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 로지커피는 거리를 사이에 두고 공간이 두개로 분리되어 있어요. 특히 오른쪽 공간의 바 테이블을 추천드리고 싶습니다. 골목의 골목에 있는 로지커피는 홍콩 로컬카페 같은 느낌이 납니다. <br><br>https://www.instagram.com/p/CYWHMMvvT4o/<br><br>name: <br>description:",
+                "name": "로지커피 ROJI COFFEE"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0549777,
+                    37.5219307
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 서울 청담에 있는 세컨드라이브러리는 공유오피스와 카페가 결합된 공간입니다. 커피만 마셔도 시간제한은 따로 없습니다! 대신 시간당 좌석값을 지불하면 지정석을 예약할 수 있어요. <br><br>https://www.instagram.com/p/CYgCFapvcxS/<br><br>name: <br>description:",
+                "name": "세컨드라이브러리 Second Library"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0040143,
+                    37.5824204
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 혜화역에 있는 북카페입니다. 지하에 있는데도 가운데 정원을 만들어서 통창으로 채광이 들어오는 곳입니다. 책과 함께 하는 공간이라 차분하고 고요한 분위기가 맴돌아요.<br><br>https://www.instagram.com/nomadmap_/p/CZGZqxxvOnz/?utm_medium=copy_link<br><br><br>name: <br>description:",
+                "name": "어쩌다 산책"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9241442,
+                    37.5554056
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 커피, 드래프트 맥주, 위스키를 마시며 일할 수 있는 카페입니다. 퇴근 후 매일 커피나 맥주를 한 잔씩 마실 수 있는 After work membership도 이용 가능합니다.<br>name: <br>description:",
+                "name": "작업실01"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9871527,
+                    37.5686145
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 청계천 앞 삼일빌딩 지하에 있는 카페입니다. 지하에 숨겨져 있어서 번잡한 을지로에서도 한가롭게 작업할 수 있어요. 게다가카페꼼마는 문학동네에서 만든 북카페라 열람할 수 있는 책도 가득합니다.<br><br>https://www.instagram.com/p/CZ5r5ubP6vV/?utm_source=ig_web_copy_link<br><br><br>name: <br>description:",
+                "name": "카페꼼마 삼일빌딩점"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9139582,
+                    37.5574344
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 로컬스티치는 신개념 동네슈퍼로 식당, 카페, 슈퍼를 겸하고 있어요. 로컬스티치는 일하는 사람들을 위한 리빙, 코워킹스페이스 공간을 제공하기에 이곳에서도 편하게 밥을 먹으며 일할 수 있어요. <br><br>https://www.instagram.com/p/CZ9AIa6v4JO/?utm_source=ig_web_copy_link<br><br><br>name: <br>description:",
+                "name": "슈퍼스티치(로컬스티치 서교2호)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9158129,
+                    37.5551889
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: ‘작은 다리’라는 뜻의 잔다리로에 있는 카페 입니다. <br><br>1층은 카페가 있고, 2층에는 브런치 바 TAG가 있어요. 위아래층을 오가며 이용할 수 있어요.<br><br>거의 모든 자리에서 콘센트를 이용할 수 있어요.  <br><br>https://www.instagram.com/p/CaTTNHHJtg_/?utm_source=ig_web_copy_link<br><br><br>name: <br>description:",
+                "name": "카페 웍소베러 잔다리"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9159375,
+                    37.5550625
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 함께 살고 함께 일하는 공간을 만드는 로컬스티치의 잔다리 지점입니다. 따뜻한 카페 분위기의 코워킹라운지입니다. 이곳은 로컬스티치 멤버들만 이용할 수 있는 전용 공간이에요. 콘센트는 물론 멀티탭, 충전기까지 준비되어 있어요. <br><br>월 12만원의 로컬스티치 멤버십을 가입하면 전지점을 자유롭게 이용할 수 있습니다. <br><br>https://www.instagram.com/p/CbHMEtkJNlL/?utm_source=ig_web_copy_link<br><br><br>name: <br>description:",
+                "name": "로컬스티치 잔다리"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0561581,
+                    37.5057659
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 노마드워커가 사랑하는 카페 테라로사 포스코센터점입니다. 테라로사는 지점마다 다른 컨셉으로 구성하는데요. 포스코센터점은 ‘철’을 주제로 꾸몄습니다. 이곳은 갤러리 같기도 하고 북카페 같기도 한 분위기 좋은 카페예요. <br><br>https://www.instagram.com/p/CbfBqKXpLwp/?utm_source=ig_web_copy_link<br><br><br>name: <br>description:",
+                "name": "테라로사커피 포스코센터점 Terarosa Coffee"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9704581,
+                    37.4835055
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 👩🏻‍💻 어떤 공간인가요?<br>식물상점 식물리에에서 공간을 공유해주고 있어요. 식물에 둘러싸인 4가지 유형의 자리에서 온전히 자신만의 시간을 보낼 수 있습니다.<br><br>ℹ️ 이용방법<br>‘식물리에 뜰’ 네이버 예약에서 이용일자를 확인 후 잡을 수 있어요.<br>http://naver.me/GC2XfpD1<br><br>name: <br>description:",
+                "name": "식물리에 sikmmulier"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9199971,
+                    37.5662415
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "<img src=\"https://doc-0c-20-mymaps.googleusercontent.com/untrusted/hostedimage/45cc1gikchv006bgecr93sqch0/g26mvma5adq7qmhmpcs29jep68/1682036534750/-DDGAiTF35Liv-eMatLXRP3kA2AxaY3W/16015805141099106452/5ACtvi-EYND_UJCVw6pZD_3zLsDW2jc29kGy4px4jndCPcfrUYgHHfJSnZGFpBCzEz4O0gs95NY2mLw4l3xrtbNHVan4IcJBDOPdA3qEZOmuUEBjy9oNi8gL3KkEbpnoUFbENhZs1fqFsEiUd5lAWd8Xd-56PfFcMIQoaZ4xpNJJsCvj8wYYphgCXqz6d-dWBrRgCn0Mj?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>설명: 연남동 경의선숲길 끝자락에 있는 카페 공그로트입니다. 연남동 주택 사이의 4층 건물 카페예요. 3층의 긴 우드테이블에 앉으면 볕을 쬐면서 연남동 거리를 보면서 작업할 수 있어요. <br><br>✔️ 텀블러 소지시 500원 할인<br>✔️ 2층에 여자화장실, 3층에 남자화장실이 있어요<br>✔️ 바로 앞 곰팡이마트에서 와인을 사서 공그로트에서 마실 수 있어요<br><br>https://www.instagram.com/p/CcNO-qEpjNl/?utm_source=ig_web_copy_link<br><br>name: <br>description:",
+                "name": "공그로트 Gongrot"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9273687,
+                    37.5571245
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 👩🏻‍💻 어떤 공간인가요?<br>디자인과 창업에 관심 있는 누구나 이용할 수 있는 코워킹스페이스입니다. 접근성도 좋고 시설도 잘 갖춰져있는데 무료로 이용할 수 있어요!<br><br>💻 어떻게 이용하나요?<br>서울디자인창업센터 회원가입 후 네이버 예약을 통해 이용할 수 있어요. 예약은 직전일 오전 10시에서 오후 10시 사이에만 가능합니다.<br><br>https://sdf-incu.or.kr/memUserGuide.do <br><br>name: <br>description:",
+                "name": "서울디자인창업센터"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9578864,
+                    37.5182538
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 유유히 흐르는 한강 위 노들섬에 있는 책방입니다. 책을 테마로 한 공간으로 고요히 집중하기 좋습니다. <br><br>1층에는 혼자만의 공간을 만들어주는 도서관 타입의 테이블, 2층에는 글쓰는 사람들을 위한 집필실이 있어요. 영감을 받을 수 있는 책들도 자유롭게 열람할 수 있습니다.<br><br>https://www.instagram.com/p/CdiS23Bpv_r/?utm_source=ig_web_copy_link<br><br><br>name: <br>description:",
+                "name": "노들서가 Nodeul Seoga"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0326443,
+                    37.4940264
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 강남역 인근에 있는 인포메이션 카페입니다. 늘 북적이는 강남역에서 넓고 한적한 공간을 제공해요.<br><br>1층과 지하층으로 이루어져 있어요. 카운터가 있는 1층은 천장이 높고 창문이 있어서 개방감이 느껴집니다. 지하에는 콘센트가 달린 큰 테이블이 있지만, 말소리가 울려서 시끄러울 수도 있어요.<br><br>https://www.instagram.com/p/CeFTuIqpLzW/?utm_source=ig_web_copy_link<br><br><br>name: <br>description:",
+                "name": "인포메이션카페 IFMT"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0078792,
+                    37.5553984
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 약수 골목에 자리한 보헤이커피입니다. 오래된 주택에서 핸드메이드 도자기에 담긴 드립 커피를 마실 수 있어요. 느리고 아늑한 공간이기에 아무것도 손에 잡히지 않을 때, 차분하게 생각을 정리하고 싶을 때 추천드려요. 1~2시간 정도 앉아 있기 적당합니다.<br><br> https://www.instagram.com/p/CeKyEfXJZSv/?utm_source=ig_web_copy_link<br> <br><br>name: <br>description:",
+                "name": "보헤이커피 Bohey Coffee"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9172764,
+                    37.5274045
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 멀리 떠나지 못할 것 같은 당신에게, 하루치 워케이션을 즐길 수 있는 호텔을 소개할게요.<br><br>글래드 여의도 입니다. 작업하기 좋은 책상은 물론이고 포근한 덕다운 침구류가 준비되어 있어 일과 휴식을 함께 할 수 있어요. <br><br>십만원 전후반대로 예약 가능해서 장기숙박을 해도 부담이 덜해요. <br><br>뿐만 아니라 헬스장, 업무라운지, 루프탑까지 준비된 편리한 호텔입니다. <br><br>https://www.instagram.com/p/Cesh3jvpbg0/?utm_source=ig_web_copy_link<br><br><br>name: <br>description:",
+                "name": "글래드 여의도 GLAD Hotel Yeouido Seoul"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9228434,
+                    37.5573343
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 홍대에 있는 1984 카페입니다. 출판사가 운영하는 카페로 작업하기 좋은 분위기가 잡혀있어요. 혼자 일하러 온 사람들이 많고 적당히 신나는 곡도 틀어져 있어서 집중력을 끌어올리기 좋습니다. 여기서 미뤄둔 할 일을 다 끝내보세요.<br><br>https://www.instagram.com/p/CfQkpUIJKWV/?utm_source=ig_web_copy_link<br><br><br>name: <br>description:",
+                "name": "1984"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9551087,
+                    37.4798639
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 샤로수길 한복판에 있는 공유아지트 ‘환대’입니다. 시끌벅적한 세상에서 떨어져 온전한 시간을 보낼 수 있는 곳이에요. 특히 이곳의 시그니처 향이 마음을 편안히 만들어줍니다.<br><br>https://www.instagram.com/p/ChCFXmNOfCm/?utm_source=ig_web_copy_link<br><br><br>name: <br>description:",
+                "name": "환대"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.058987,
+                    37.5411108
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: <br>name: <br>description: 성수는 늘 사람이 많아서 어수선한데요. 디플랫은 분위기가 차분해서 집중하기 좋아요. 공간도 넓고 깔끔해서 답답하지 않고요. 성수에서 약속 가기 전 작업하다 가기 좋은 공간이에요.<br><br>https://www.instagram.com/p/CiouxlJOlle/?utm_source=ig_web_copy_link<br><br>",
+                "name": "디플랫성수"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0580645,
+                    37.5414903
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 상상플래닛에서 만든 창업공간입니다. 1~2층은 플래닛 멤버가 아니라도 사용할 수 있는 오픈코워킹라운지가 있어요. 별도의 이용료도 없습니다!<br><br>https://www.instagram.com/p/CiwmxaTOvq5/?utm_source=ig_web_copy_link<br><br><br>name: <br>description:",
+                "name": "KT&G 상상플래닛"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0388462,
+                    37.4954774
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: Fyi는 일하는 사람들을 위한 라운지 카페입니다. 자신의 일에 집중하고 싶은 사람들이 모이는 공간이에요. 다른 강남역 카페에 비해 차분해서 일하기 좋아요.<br><br>팝업스토어가 열리기도 해서 색다른 영감을 받을 수 있어요. 테크, 예술, 문학 등 다양한 카테고리의 책도 읽을 수 있답니다.<br><br>name: <br>description:",
+                "name": "fyi 역삼"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0279249,
+                    37.5028666
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 발리 꾸따 해변에 있을듯한 카페네요. 라탄 지붕부터 조명, 의자까지 동남아 휴양지 분위기가 나요. 지하 2층부터 4층까지 이어진 초대형 카페로 각 층별로 테마도 충실해요.<br><br>콘센트도 많고 핸드폰 충전기도 비치되어 있어요. 와이파이는 지하 1층에서만 빨라요.<br><br><br>name: <br>description:",
+                "name": "에이비카페 AB Cafe"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0280905,
+                    37.5030004
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 강남 CGV 골목으로 올라가면 키큰 나무에 둘러싸인 알베르가 나와요. 지하부터 3층까지 모두 알베르 카페로 엄청난 규모예요.<br><br>창밖에는 나무가 보이고 층고도 높아 오래 있어도 답답함이 없어요. 자리 간격이 넓고 테이블 높이도 이상적이라 노트북 작업자가 많습니다.<br><br>name: <br>description:",
+                "name": "알베르 Alver Coffee"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.8779751,
+                    37.4792935
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "<img src=\"https://doc-04-20-mymaps.googleusercontent.com/untrusted/hostedimage/45cc1gikchv006bgecr93sqch0/ok35ggsmhc7dvkaggq4kbif7tg/1682036534750/-DDGAiTF35Liv-eMatLXRP3kA2AxaY3W/16015805141099106452/5ACtvi-Gfc26DOb42fgYNzBdG2wuneLOSp7996z9iNPxpyhj_AyKK7L_IzmPCnSLUmEzTC3NtdSnhYa8ZJjdU02DEG_IwpS50sHl6YoZhlhbxRiiO51toUwzAUMEzpPSsiB1R3YcX3-hvUk8c4GRSorw-JCzs63sivaNG5P2Oo0KLCijrUGmOjUVbkwz1ZAbIjkd04_3I?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>설명: 서울 가산에 있는 대형카페입니다. 빌딩숲에 갇혀있지 않아 볕이 가득 들어옵니다.<br><br>자연광이 쏟아지는 중정, 하늘이 보이는 테라스, 따뜻한 가을볕을 쬐기 딱인 카페예요.<br><br>딱딱해 보이는 직각의자에는 반전 있게 푹신한 쿠션이 달려있어요. 4인 테이블이 많아 혼자라도 둘이라도 눈치 보지 않고 이용할 수 있어요. 팀미팅 하기에 적합한 클래스룸 공간도 있습니다!<br><br>날씨 좋은 주말에 일해도 기분을 즐겁게 만들어주는 공간이에요.<br><br>name: <br>description:",
+                "name": "인크커피 Inc Coffee Gasan Branch"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9856893,
+                    37.5614189
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 코워킹스페이스 쏠라운지에는 명동성당 뷰를 보며 일할 수 있다. <br>업무공간은 물론이고, 무제한 드링크 바, 간식 편의점, OA서비스 등 편의시설까지 잘 갖췄다. <br>번화한 명동에서 쾌적하게 일하기 좋은 공간이다.<br><br>(50% 할인 가격) 2시간 2500원, 4시간 4500원, 6시간 5500원, 1일권 9900원 <br><br>name: <br>description:",
+                "name": "쏠라운지 위드 그레이프"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0520592,
+                    37.5442613
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 새로운 아이디어로 반짝일 때가 있어요. 그럴 때는 밤에 잠도 잘 안 오고요. 마감시간 걱정없이 일에 몰입하고 싶을 때 이곳으로 가요.<br><br>루프는 성수동에 있는 카페 겸 와인바예요. 새벽 두시까지 영업을 해서 밤늦게까지 열정을 불태울 수 있는 곳이죠.<br><br>낮에는 손님들이 많아 북적이지만 밤이 되면 고요해져요. 집중하기 좋은 분위기가 만들어지죠. 심지어 와인을 마시며 일할 수도 있고요.<br><br>루프는 디올성수 바로 옆 건물이에요. 2층 창문과 루프탑에서 보는 야경도 멋지답니다.<br>name: <br>description: https://www.instagram.com/p/CnRTJbJuqOn/",
+                "name": "Looop"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0183628,
+                    37.574042
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: 동묘에 이런 곳이 있다니. 동묘 구제시장과는 사뭇 다른 카페가 생겼다. 그도 그런 게 올덴브라운은 판교에 먼저 문을 연 카페다. 동묘에 판교 카페거리를 한쪽 떼어 온 것 같다.<br><br>큰 길가에 있지만 앞으로는 못 들어간다. 텅빈 내부를 보고 처음에는 폐업한 줄 알았다. 뒷골목으로 빙 돌아가야 한다. 아는 사람들만 갈 수 있는 비밀의 방이다.<br><br>카페는 공간 분리가 잘 되어있다. 카운터와 연결된 메인 공간은 대화를 나누는 분위기. 해가 잘 드는 안쪽 공간은 일하는 사람들이 모여있다. 구석구석 공간을 찾아내는 재미가 있는 곳이다.<br><br>name: <br>description: https://www.instagram.com/p/Cma-m3LptKY/?utm_source=ig_web_copy_link",
+                "name": "올덴브라운 동묘점"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9262938,
+                    37.5598737
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "설명: ‘우리의 이야기는 영화다’ 카페 공명에서 처음으로 마주하는 문장이다.<br><br>공명은 어두운 곳에서 밝고 따뜻한 것들이 나온다는 의미를 가졌다. 이곳에 머무르며 누구나 글, 음악, 그림 등 예술적인 작업을 하길 바라는 마음을 담았다고.<br><br>출판사가 엄선한 책과 한쪽 벽면에 틀어진 영화가 자신만의 작품을 만들어내는 메이커들을 응원한다.<br>name: <br>description: https://www.instagram.com/p/Cl8Lh0sOMPY/?utm_source=ig_web_copy_link",
+                "name": "카페 공명"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0429329,
+                    37.2789488
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "수원 아주대 앞에 있는 카페 카탈로그입니다. 튼튼한 테이블부터 넉넉한 멀티탭까지, 노트북 작업에 친화적인 공간이에요. 대학교 도서관처럼 조용히 집중하는 분위기입니다.<br><br>https://www.instagram.com/p/ChtOT7-JVZo/?utm_source=ig_web_copy_link<br><br>description: <br>이름: 카탈로그 Katalog",
+                "name": "카탈로그 Katalog"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0361971,
+                    37.2636839
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "사계절의 색을 보며 일할 수 있는 곳입니다. 창을 향하는 테이블이 많고 그 아래 콘센트도 넉넉합니다.<br><br>https://www.instagram.com/p/CX0UjOGvhgu/?utm_source=ig_web_copy_link<br><br>description: <br>이름:",
+                "name": "카페 도안 Cafe Doan"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.1670593,
+                    37.3572787
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "페이브 오포점은 개방감이 넘치는 공간을 가지고 있어요. 특히 3층은 전면 통창으로 환한 분위기를 자아냅니다. 좌석 간 거리가 멀고 테이블도 넓습니다. 1-2인용 테이블도 있어서 혼자 작업하기에도 좋아요. 테이블 주변 바닥에서 콘센트도 쉽게 찾을 수 있습니다.<br><br>https://www.instagram.com/p/CYllbIZvap4/?utm_source=ig_web_copy_link<br><br>description: <br>이름: 페이브 경기오포점 fave",
+                "name": "페이브 경기오포점 fave"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0920133,
+                    37.3893019
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "판교도서관 근처에 있는 카페입니다. 테라로사답게 지하부터 2층까지 있는 대형카페인데요. 구석구석 해가 잘 들어 따스합니다. 도서관이 답답한 분들에게 추천하고 싶어요.<br><br>https://www.instagram.com/p/CZo51EEP9C5/?utm_source=ig_web_copy_link<br><br>description: <br>이름: 테라로사 판교 Terarosa Coffee",
+                "name": "테라로사 판교 Terarosa Coffee"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.1614009,
+                    37.3742847
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "경기도 광주 신현리에 있는 대형카페입니다. 2층에 스터디라운지가 있는 작업하기 좋은 카페예요.<br><br>https://www.instagram.com/p/CamixyxJRbw/?utm_source=ig_web_copy_link<br><br>description: <br>이름: 더플레이스토픽 The place topic",
+                "name": "더플레이스토픽 The place topic"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.1049451,
+                    37.4001001
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "👩🏻‍💻 어떤 공간인가요? <br>81석의 좌석, 미팅룸, 화상회의실, 세미나실이 있는 코워킹스페이스입니다. 예비창업자 및 스타트업, 콘텐츠 제작자도 자유롭게 이용할 수 있습니다.<br><br>💻 어떻게 이용하나요?<br>G-HUB 홈페이지에서 회원가입 후 자리를 예약할 수 있어요. 그것도 무료로! 경기도민뿐만 아니라 지역제한 없이 이용가능합니다. 당일 온라인예약만 가능해요.<br> <br>https://www.gcon.or.kr/visitorInfo<br><br>description: <br>이름: 경기창조혁신허브 판교 G-HUB Pangyo",
+                "name": "경기창조혁신허브 판교 G-HUB Pangyo"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0301949,
+                    37.2673736
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "<br><br>description: 비즈니스 호텔 답게 작업하기 편리한 테이블과 의자가 있어요. 체크아웃 시간도 12시라 오전 업무를 여유롭게 처리할 수 있습니다. <br>호텔 내 피트니스 센터, 회의실, 세탁실이 있고, 수원의 대표 거리인 나혜석 거리와 인접해서 카페, 음식점 등을 편하게 이용할 수 있습니다.<br><br>이름:",
+                "name": "홀리데이 인 익스프레스 수원인계점 Holiday Inn Express Suwon Ingye"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.1121495,
+                    37.3954525
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "워크라이프를 주도하는 코사이어티가 판교에 문을 열었어요. 판교점은 일상적인 업무시간도 소중히 보낼 수 있도록 공간을 만들었어요. <br><br>대규모 컨퍼런스가 가능한 타운홀, 소규모 회의실, 집중하기 좋은 카페까지 알차게 들어왔어요. 미팅을 하거나 작업 공간이 필요할 때 이용해보세요.<br><br>https://www.instagram.com/p/CiMCy87pPCd/?utm_source=ig_web_copy_link<br><br>description: <br>이름:",
+                "name": "캔틴 코사이어티"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0553519,
+                    37.2939964
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "<br><br>description: 수원 광교카페거리에 있는 카페그루비입니다. 지브리 영화에 나올듯한 아늑하고 빈티지한 분위기를 가졌어요. 책과 음악이 있는 조용한 카페입니다.<br><br>https://www.instagram.com/p/CihZv9yujtG/?utm_source=ig_web_copy_link<br><br><br>이름:",
+                "name": "카페그루비"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.1196084,
+                    37.3854605
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "분당 서현 #인비저블커피<br><br>유리문 밖에서부터 어두운 카페가 가지는 특유의 차분함이 새어 나온다. 머리맡 조명이 비추는 작은 원에만 주목하게 된다. 어느곳보다 빠르게 일에 몰입된다. 일에 집중하고 싶은 사람들이 모여든다.<br><br>👩🏻‍💻 어떤 자리가 있어요?<br>- 4명까지 앉을 수 있는 너른 테이블이 여섯개있어요. <br>- 혼자라면 입구 쪽 긴 테이블을 추천해요. <br>- 창가 소파자리는 노트북 사용이 불가해요.<br><br>🔌 카페에 콘센트는 많아요?<br>- 모든 자리에서 콘센트를 쓸 수 있어요. <br>- 테이블 아래 바닥에 멀티탭이 있습니다.<br><br>🧑‍💻 어떻게 이용할 수 있나요?<br>- 카페 메뉴를 주문하고 이용할 수 있어요. <br>- 일하러 온 사람들이 많아서 조용해요. 가벼운 대화는 괜찮은 분위기입니다.<br><br>📍찾아가는법<br>- 서현역 4번 출구에서 도보 5분<br>- 서현 리더스빌딩 2층에 있어요.<br><br>description: <br>이름:",
+                "name": "인비저블 커피"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.2057682,
+                    37.5551147
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "잠들어 있던 24시간 카페가 돌아왔다. 새로운 아이디어로 쉽게 잠들지 못하는 밤, 더노벰버라운지로 향해보자.<br><br>더노벰버라운지는 광고디자인 회사가 만든 공간이다. 하남뿐만 아니라 제주, 부산, 판교 등 전국 각지에 지점을 가지고 있다. 모든 지점이 365일 24시간 운영한다.<br><br>하남풍산점은 2층에 작업 분위기가 잡혀 있다. 테이블, 조명, 멀티탭까지 일하기 좋은 조건은 다 갖췄다. 자정이 넘어서도 몰입하는 사람들로 가득하다.<br><br>반면 1층에는 편안한 라운지 공간이 있다. 단잠에 빠질 정도로 아늑한 소파가 많다. 맥주, 칵테일, 위스키도 마시며 늘어질 수 있다.<br><br>description: https://www.instagram.com/p/ClqGiVmu_dO/?utm_source=ig_web_copy_link<br>이름:",
+                "name": "더노벰버라운지 하남풍산점"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    128.251495,
+                    37.477486
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: 평창에 있는 보타닉카페입니다. 강원도에 가는 길이거나 웰리힐리 리조트에 머무르고 있을 때 방문하기 좋은 곳에 있어요. 실내정원에 테이블이 있어서 푸릇푸릇한 식물들과 함께 일을 할 수 있습니다.  <br><br>https://www.instagram.com/p/CdX1_Fcpwx8/?utm_source=ig_web_copy_link<br><br><br>이름: 평창보타닉가든 (PyeongChang Botanic Garden)<br>설명:",
+                "name": "평창보타닉가든"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    128.9278125,
+                    37.7866875
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: 바다뷰 솔뷰 자연뷰가 있는 강릉 아비오호텔 로비입니다. 호텔과 코워킹플레이스를 결합한 일로오션의 워케이션이 운영되는 곳입니다. <br><br>https://www.instagram.com/p/CY2lSRNvVLy/?utm_source=ig_web_copy_link<br><br>이름: AVVIO Hotel<br>설명:",
+                "name": "아비오호텔 Avvio Hotel"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    128.8906032,
+                    37.7499576
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: 서울도 부산도 아닌 강릉에 이런 공간이 생길 줄 누가 알았을까. 강릉 구도심 명주동에 일하고 싶은 코워킹스페이스 파도살롱이 있다. <br><br>화이트우드톤으로 꾸며진 실내는 따뜻함이 느껴진다. 파도를 연상케 하는 물결 모양의 데스크는 유연함을, 가지각색의 소파는 아이디어를 자극한다. 커다란 창밖에는 은행나무가 보여 계절의 흐름을 잊지 않고 따라갈 수 있다. <br><br>환기를 하고 싶을 때는 ‘파도의 시선’이라 불리는 책장으로 다가가보자. 로컬, 창업, 마케팅 등 일하는 사람들의 관심사에 맞춘 책이 비치되어 있다. 기획자와 크리에이터를 위한 공간답다. <br><br>높이 조절이 되는 의자, 개별 스탠드, OA 공간 등 작업 편리성을 각별히 신경 썼다. 이만하면 강릉에서 집중하기 가장 좋은 공간이 아닐까. 커뮤니티 바에는 로컬 로스터리의 원두가 제공되어 맛있는 커피를 즐길 수 있다. 초콜릿과 에너지바가 들어있는 간식함도 만점💯 <br>이름: <br>설명:",
+                "name": "파도살롱"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    128.8956664,
+                    37.759652
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: <br>이름: <br>설명:",
+                "name": "위크엔더스"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    128.8971938,
+                    37.7582258
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: <br>이름: <br>설명:",
+                "name": "고래책방"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    128.8841588,
+                    37.7545122
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: <br>이름: <br>설명:",
+                "name": "Cerro"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    128.9471035,
+                    37.772747
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: <br>이름: <br>설명:",
+                "name": "Cafe Lumière"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.1339142,
+                    35.8407336
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "전주 전북대 앞에 있는 대형카페 IVY586입니다. 대학생들이 과제를 하러 많이 오는 카페라 캠퍼스 분위기가 물씬나요. 가벼운 대화를 나누며 일할 수 있는 일하기 좋은 카페예요. <br><br>https://www.instagram.com/p/CdSM-YWpLTP/?utm_source=ig_web_copy_link<br><br>description: <br>이름: IVY586",
+                "name": "IVY586"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.904651,
+                    34.6669067
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "💵 1박 평균 8만 원대<br><br>😄 정원이 보이는 좌식테이블 / 어나더레벨 청결 / 가성비 좋아요 / 감성 넘치는 정원과 숙소 / 탐진강, 마트 등 접근성 좋음 <br><br>🥲 주방이 작아요 / 입식테이블이 없어요<br><br>https://www.instagram.com/p/ChbYuBiu9be/?utm_source=ig_web_copy_link<br><br>description: <br>이름:",
+                "name": "무무라 펜션 murmurar (나무)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9660599,
+                    34.6741618
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "💵 1박 평균 15만 원대<br><br>😄 일하기 좋은 높이의 테이블 / 노랑노랑 인테리어 / 한적하고 여유로운 위치<br><br>🥲 위험한 복층 계단 / 상대적으로 비싼 숙박비<br><br>https://www.instagram.com/p/ChbYuBiu9be/?utm_source=ig_web_copy_link<br><br>description: <br>이름:",
+                "name": "달바위펜션 (Yellow house)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9062297,
+                    34.6758194
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "✔️ 작업하기 좋은 넉넉한 공간<br>✔️ 서울카페 못지 않은 감성<br>✔️블렌드티 맛있어요<br>✔️ 장흥 특산품 청태전(Tea)도 맛볼 수 있어요<br><br>https://www.instagram.com/p/ChbYuBiu9be/?utm_source=ig_web_copy_link<br><br>description: <br>이름:",
+                "name": "오차현 Ochahyeon"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9054778,
+                    34.6798079
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "✔️ 눈치 안 보이는 복층카페<br>✔️ 장흥의 첫 번째 커피 전문점<br>✔️ 빙수, 베이커리 메뉴 있어요<br><br>https://www.instagram.com/p/ChbYuBiu9be/?utm_source=ig_web_copy_link<br><br>description: <br>이름:",
+                "name": "원앤식스 (One&six Coffee)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9228173,
+                    33.4511194
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: 두개의 객실을 합친 디럭스룸은 작업공간과 침실이 분명하게 나눠져 있어요. <br><br>일도 쉼도 제대로 할 수 있는 제주 숙소입니다. <br><br>1박 평균 15만원으로 워케이션 숙소를 즐겨보세요.<br><br>https://www.instagram.com/p/CgMntM4pj6t/?utm_source=ig_web_copy_link<br><br><br>이름: Playce Camp Jeju<br>설명:",
+                "name": "플레이스캠프 Playce Camp Jeju"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.2907739,
+                    33.234022
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: https://www.instagram.com/p/Cmv1jw7unhL/?utm_source=ig_web_copy_link<br>이름: <br>설명: 디테일은 어디서 올까요? 오피스제주 사계점을 다녀와서 답을 얻었어요. 디테일은 관심과 경험이 쌓여 나옵니다.<br><br>사계점은 오피스제주의 두번째 공간이에요. 첫 번째 공간에서 얻은 경험으로 뉴워커에게 무엇이 필요할까 고심한 흔적이 보여요.<br><br>일단 체크인부터. 비대면이라면 딱딱하게만 생각했는데 오피스제주에서는 아니었어요. 키카드를 꽂지도 않았는데도 비지엠이 틀어져 있고 적당한 온도에 맞춰져 있었어요. 컨시어지는 없지만 환대받았습니다.<br><br>객실은 숨겨진 보물을 찾는 것처럼 디테일을 발견하는 재미가 있어요. 멀리서 오느라 고생했다는 한줄의 문장, 의자와 색을 맞춘 콘센트, 두가지 종류로 준비한 드립백, 침대 옆 핸드폰 거치대, 현관 앞 마스크걸이와 소지품 트레이, 넉넉하게 준비한 수건까지. 끝도 없이 디테일이 쏟아져요.<br><br><br>이제 일층 코워킹스페이스로 가볼게요. 숙박객은 50% 할인된 금액으로 이용할 수 있답니다. 그것도 하루종일! 코워킹스페이스 역시 뉴워커에 대한 관심을 가지고 만들었어요.<br><br>집중이 잘 되는 환경은 사람마다 다르잖아요. 그래서 업무공간도 다양성이 필요한데요. 마운틴 뷰 자리, ,블라인드로 분리된 개인부스, 협업 데스크, 책장 옆자리, 누워서 일하는 자리 등 취향대로 고를 수 있어요.<br><br>그리고 잼과 토스트가 있어서 열량 보충으로 최고. 커피 원두도 디카페인을 포함해 두가지나 있고요. 배고프다면 냉동식품을 결제해서 먹을 수도 있답니다.<br><br><br>글이 길어졌네요. 한줄로 요약하면<br>오피스제주 또 가고 싶다!<br>",
+                "name": "오피스 제주 사계점"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.3054626,
+                    33.2400233
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: 제주 서귀포에 있는 대형카페 오라디오라입니다. 창밖에 산방산이 크게 걸려있는 카페예요. 플랜테리어로 싱그러운 분위기를 내어서 더욱 제주다운 곳이랍니다.<br><br>https://www.instagram.com/p/Cf_RiTCOyVH/?utm_source=ig_web_copy_link<br><br><br>이름: <br>설명: 산방산이 보이는 싱그러운 카페",
+                "name": "오라디오라"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.2061707,
+                    33.3693842
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: 제주 서쪽에 있는 오션뷰 카페예요. 잔잔한 풍차해안이 보여서 그럴까요? 대형카페인데도 어수선하지 않고 차분한 분위기를 가졌어요. 노트북을 안고 들어가니 동네분이냐고 물어왔어요. 제주에 사는 분들이 일하러 많이 찾는다고 해요.<br><br>https://www.instagram.com/p/CfwRs_uJPtB/?utm_source=ig_web_copy_link<br><br><br>이름: <br>설명:",
+                "name": "울트라마린 Ultra Marine"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9185555,
+                    33.4499268
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: 플레이스캠프 안에 있는 카페 도렐입니다. 아침이 늦은 제주에서 일찍부터 작업 공간이 되어줘요. 오픈시간인 8시 반부터 일하는 여행자들로 가득했어요.<br><br>https://www.instagram.com/p/CgcC6DXJQ3b/?utm_source=ig_web_copy_link<br><br><br>이름: <br>설명: 아침부터 문을 여는 집중하기 좋은 카페",
+                "name": "카페도렐 Cafe Dorrell"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.4834798,
+                    33.5106119
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: <br>이름: <br>설명: 제주공항 근처에 새로 생긴 코워킹스페이스예요. 전면에는 야자나무와 도두해안이 보이고, 옆으로는 5분마다 비행기 이륙을 볼 수 있어요.<br><br>1일 이용권은 1만 원, 4시간 이용권은 7천 원입니다.<br><br>https://www.instagram.com/p/CjNMhyXuYwk/?utm_source=ig_web_copy_link<br><br>",
+                "name": "팜스테이션"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.5219452,
+                    33.5044695
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: <br>이름: <br>설명: 봄이면 벚꽃이 만개하는 제주시 전농길에 있는 카페예요. 카페 이름부터 기분이 좋은 만사오케이👌🏻 독립서점처럼 집중하기 좋은 분위기에 사장님까지 친절해서 단골 삼고픈 카페예요.<br><br>https://www.instagram.com/p/Ci4E6jbJid4/?utm_source=ig_web_copy_link<br><br>",
+                "name": "10004ok ( 만사오케이 )"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.5230369,
+                    33.5010708
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: <br>이름: <br>설명: 👩🏻‍💻 어떤 공간인가요?<br>- 공유오피스를 운영하는 원루프에서 만든 숙소<br>- 일과 휴식의 완벽한 밸런스를 맞춘 공간<br>- 제주공항에서 10분 거리에 제주시 구도심에 있어요.<br><br>🧑‍💻 어떻게 이용할 수 있나요?<br>- 원루프에서 ‘원패스트립 멤버십’ 구매 후 이용할 수 있어요.<br>- 멤버십은 6박 7일 숙박권, 30일간 원루프 전지점 무제한 사용, 커뮤니티 참여권 등이 포함되어 있어요.<br>- 가격은 1회 66만 원입니다.<br><br>https://www.instagram.com/p/CjUUuxFJqJ-/?utm_source=ig_web_copy_link<br><br>",
+                "name": "원루프 제주"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.5287253,
+                    33.4985741
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: <br>이름: <br>설명: 커피 애호가들을 위한 찐 커피 맛집. 맛있는 드립 커피 마시면서 일해요!",
+                "name": "커피파인더 Coffee Finder"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.5300349,
+                    33.5003147
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "description: <br>이름: <br>설명: 제주시 무료 코워킹스페이스",
+                "name": "제주창조경제혁신센터"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    129.027034,
+                    35.1034386
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "<img src=\"https://doc-04-20-mymaps.googleusercontent.com/untrusted/hostedimage/45cc1gikchv006bgecr93sqch0/9jd456pcd9kvcgnuiqibamduo4/1682036534750/-DDGAiTF35Liv-eMatLXRP3kA2AxaY3W/16015805141099106452/5ACtvi-FwMWnOD8rK6BHpwjjSD0QyQHJnN922Mp_RFoD83dKC18zXLvWZhldrv-zV2-0s3Cy_2d81q3EdemdbSHGuVoSzJrB4G4CdaI4cVqHh7QUWaVhW4UXlh5PihUg4o79X1TiMrVzVwrz8dB057jt38FxOKLxyvOkrs2VBy9A5rUV5RIMycjsf9N-ksRdsv7cbdzBW?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><br><br>이름: <br>설명: 오래된 책 냄새가 나는 부산 여행지 보수동 책방골목에 있어요. 60년 된 주택을 개조해서 빈티지한 멋이 있어요.<br><br>또렷한 두 가지 색이 어우러지는 테이블에서 일해봐요. 1층 자리는 마당이 보여서 푸릇푸릇해요.<br><br>3층에는 셀프 촬영이 가능한 포토부스가 있어요. 부산의 시간을 담아가세요.<br>",
+                "name": "브라운핸즈 보수점"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    129.0374045,
+                    35.1022061
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "<br><br>이름: <br>설명: 고개만 돌리면 부산항 뷰 ‘노티스’<br>굿올데이즈 카페에서 로컬매거진을 하나 집었다. 종이를 후루룩 넘기다 노티스를 발견했다.<br><br>노티드 말고 노티스? 어쩐지 어색한 이름에 눈길이 갔다. 노티스는 부산항 앞 베이커리 카페로 1950년대 쌀 창고로 이용하던 건물에 들어왔다고 한다.<br><br>지도를 찍어보니 굿올데이즈에서 고작 300m 떨어져 있다. 당장 노티스로 출발했다.<br><br>붉은 벽돌로 쌓은 건물. 카운터가 있는 2층에 오르자 창문 너머 부산항이 보인다. 한층 더 올라가자 입이 떡 벌어진다. 기다란 그림처럼 부산항과 영도바다가 시원하게 걸려있다. 뷰를 보고 놀라 문턱에 걸려 넘어지기까지 했다.<br><br>매거진을 보고 즉흥적으로 왔는데 성공이다. 이제 작업하기 좋은 자리는 어딘지 살펴보자.<br><br>👩🏻‍💻 어떤 자리가 있어요?<br>- 2층 창가 자리에 테이블 네 개가 있어요. 각각 창문 하나씩 끼고 있는데, 테이블과 의자가 높아 고개만 돌리면 부산항이 보여요.<br>- 3층은 여러 방으로 이루어져 있어 독립적이고 집중하기 좋아요.<br>- 3층 오른쪽 방이 압권! 기다란 원목테이블이 있는 방인데 뷰가 엄청나요. 의자에 등받이가 없는게 아쉽네요.<br>- 3층 루프탑에도 자리가 있어요.<br><br>🔌 카페에 콘센트는 많아요?<br>- 벽면을 따라 콘센트가 충분히 있어요.<br>- 2층 창가와 벽면 자리, 3층 방 안에서 콘센트 사용이 가능해요.",
+                "name": "Notice 1950"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    129.0359012,
+                    35.1011147
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "<br><br>이름: <br>설명: 부산 굿올데이즈 카페 & 호텔<br><br>👩🏻‍💻 어떤 공간인가요?<br>- 굿올데이즈는 디지털과 아날로그 모두 갖춘 균형있는 공간입니다.<br>- 카페에는 무료 미팅룸이 있고, 숙소에는 업무 가능한 데스크가 갖춰져 있어요.<br>- 그리고 손으로 엽서를 쓰고, 종이잡지를 매만지며 읽을 수 있는 곳이기도 해요.<br><br>✨이 공간의 포인트<br>- 1층에서는 미래로 보내는 엽서를 부칠 수 있어요. 최대 3년까지 엽서를 받는 순간을 선택해보세요.<br>- 엽서들은 로컬작가의 부산 사진으로 만들어졌어요.<br>- 용두산공원이 보이는 루프탑도 올라가보세요.<br>- 네이버 예약에서 특별한 쿠폰을 받을 수 있어요(마지막 이미지 참고)<br><br>🔌 카페에 콘센트는 많아요?<br>- 2층에서는 미팅룸, 원형 테이블, 기둥 옆 테이블에서 충전기를 사용할 수 있어요.<br>- 1층은 창가 가운데 자리에 콘센트가 있어요.<br><br>🧑‍💻 어떻게 이용할 수 있나요?<br>- 카페는 메뉴 주문 후 이용하면 돼요.<br>- 미팅룸 역시 1인 1메뉴로 최대 2시간 사용 가능합니다.<br>- 숙소는 스테이폴리오에서 15~23만 원으로 예약 가능해요.",
+                "name": "굿올데이즈"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    129.0453763,
+                    35.1163837
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "<br><br>이름: <br>설명: 부산 ‘북두칠성 도서관’<br>부산 워케이션의 정점을 찍은 도서관이다. 일도 여행도 사랑한다면 이만한 공간이 없다.<br><br>세계의 아름다운 도서관 못지않게 황홀하다. 무거운 공기를 가진 열람실이 아니다. 카페 같은 편안함이 감돈다. 애써 소문내지 않아도 머지않아 부산의 랜드마크로 자리할 것 같다.<br><br>아름다운 공간에서 은은한 조명을 맞으며 노트북 작업을 할 수 있다. 당연히 책도 자유롭게 열람 가능하다. 책에 둘러싸여 집중하다가, 뇌를 쉬어줄 때는 책을 펼치면 된다. 책 읽기로 휴식을 취하는 사람이라면 여기는 꼭 가야 한다.<br><br>👩🏻‍💻 어떤 자리가 있어요?<br>- 창가자리만 노트북 작업이 가능해요.<br>- 책을 읽을 때는 도서관 곳곳에 놓인 빈백과 소파에 앉아보세요.<br><br>🔌 카페에 콘센트는 많아요?<br>- 창가자리에는 2구 매립형 콘센트를 이용할 수 있어요.<br>- 무선충전, USB 충전도 가능해요.<br><br>🧑‍💻 어떻게 이용할 수 있나요?<br>- 누구나 무료로 입장 가능합니다.<br>- 도서 대출 서비스는 멤버십 가입자에 한해 제공하고 있어요. 멤버십 비용은 6개월 55,000원입니다.<br>- 독서에 방해되지 않도록 소음을 주의해주세요.",
+                "name": "북두칠성도서관"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    129.0411656,
+                    35.1151357
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "<br><br>이름: <br>설명:",
+                "name": "비스타트업 스테이션(Busan Eurasia Platform)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    129.0411656,
+                    35.1151357
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "부산광역시 동구 중앙대로 210, 부산유라시아플랫폼 A동 201호<br><br>이름: <br>설명:",
+                "name": "디캠프 스타트업 라운지 부산"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.0041405,
+                    37.5604461
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "커피도 맛있고, 조명도 차분하고, 테이블도 넓은 아파트먼트 기룬을 소개합니다. <br><br>https://www.instagram.com/p/CXk4iyyPwNA/?utm_medium=copy_link<br><br>description: <br>이름:",
+                "name": "(폐업) 아파트먼트 기룬 Apartment Kiroon"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.98353,
+                    37.571908
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "인사동, 광화문, 종각 사이에 있는 카페입니다. 커피로 유명한 빈브라더스가 만든 플래그십 카페예요.<br><br>콘센트가 있는 바 자리가 작업하기 좋아요. 의자에 두툼한 방석도 있어서 오래 앉아 있어도 배기지 않아요.<br><br>https://www.instagram.com/p/CZb1IJnvxqk/?utm_medium=copy_link<br><br>description: <br>이름:",
+                "name": "(폐업) 카페 결 Cafe Gyeol"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    126.9789715,
+                    37.5738637
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "광화문 광장 건너편 빌딩 사이에 있는 카페예요. 커피앳웍스라는 이름답게 커피 한 잔과 함께 작업하기 좋은 환경을 갖춘 곳입니다. 1인용 히든데스크, 원목테이블, 바테이블 등 여러 자리에 콘센트가 구비되어 있어요.<br><br>description: <br>이름:",
+                "name": "(폐업) 커피앳웍스 Coffee@works (아미빌딩광화문점)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.974353,
+                    18.799303
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Chiangmai Lodge",
+                "name": "Chiangmai Lodge"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.979077,
+                    18.788696
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Alt_ChiangMai - coliving & coworking space",
+                "name": "Alt_ChiangMai - coliving & coworking space"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    99.020066,
+                    18.805408
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Escent Chiangmai",
+                "name": "Escent Chiangmai"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.967261,
+                    18.802248
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "CAMP",
+                "name": "CAMP"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.968842,
+                    18.798298
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Yellow Coworking Space (Co-working)",
+                "name": "Yellow Coworking Space (Co-working)"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.968036,
+                    18.795918
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Life Space",
+                "name": "Life Space"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.973037,
+                    18.793041
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "The Brick Startup Space",
+                "name": "The Brick Startup Space"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.986748,
+                    18.793399
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Punspace Wiang Kaew",
+                "name": "Punspace Wiang Kaew"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.991376,
+                    18.787239
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Punspace Tha Phae Gate",
+                "name": "Punspace Tha Phae Gate"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.979077,
+                    18.788696
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Alt_ChiangMai - coliving & coworking space",
+                "name": "Alt_ChiangMai - coliving & coworking space"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.982922,
+                    18.802684
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "One Workspace",
+                "name": "One Workspace"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.998508,
+                    18.788404
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "The Story 106 Co-Working Space &Cafe",
+                "name": "The Story 106 Co-Working Space &Cafe"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    99.016131,
+                    18.796241
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "StarWork Chiangmai",
+                "name": "StarWork Chiangmai"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.996316,
+                    18.795352
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "TCDC",
+                "name": "TCDC"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.966193,
+                    18.796998
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "yesterday cafe'",
+                "name": "yesterday cafe'"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.96705,
+                    18.7993
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lot of Taste",
+                "name": "Lot of Taste"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.974256,
+                    18.798992
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Ombra Caffe no.3",
+                "name": "Ombra Caffe no.3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.983254,
+                    18.788081
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "My Secret Cafe In Town",
+                "name": "My Secret Cafe In Town"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.986467,
+                    18.783363
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Kalm​ Village​ Chiangmai",
+                "name": "Kalm​ Village​ Chiangmai"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.980085,
+                    18.792843
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Bird's Nest Cafe",
+                "name": "Bird's Nest Cafe"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.979918,
+                    18.788553
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "IKA:ffeine",
+                "name": "IKA:ffeine"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.958929,
+                    18.794618
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Blue coffee at Agriculture CMU",
+                "name": "Blue coffee at Agriculture CMU"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.981999,
+                    18.775808
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Artisan Café",
+                "name": "Artisan Café"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.991813,
+                    18.790386
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Yoy's Coffee & Thai Food",
+                "name": "Yoy's Coffee & Thai Food"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.978504,
+                    18.790938
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Kwankhao Juice & Smoothie Chiang Mai",
+                "name": "Kwankhao Juice & Smoothie Chiang Mai"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.99454,
+                    18.793664
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "The Hideout",
+                "name": "The Hideout"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.982089,
+                    18.793197
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Goodsouls Kitchen - Vegan Cafe & Restaurant",
+                "name": "Goodsouls Kitchen - Vegan Cafe & Restaurant"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.991162,
+                    18.792816
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "By Hand Pizza Cafe",
+                "name": "By Hand Pizza Cafe"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.967735,
+                    18.796704
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Tong Tem Toh",
+                "name": "Tong Tem Toh"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.969799,
+                    18.797519
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "สุกี้จินดา金达火锅สาขา เชียงใหม่1",
+                "name": "สุกี้จินดา金达火锅สาขา เชียงใหม่1"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.986302,
+                    18.783455
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Kalm Kitchen",
+                "name": "Kalm Kitchen"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.973232,
+                    18.795891
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Crazy Curry",
+                "name": "Crazy Curry"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.975214,
+                    18.799599
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Khao Soy Maesai",
+                "name": "Khao Soy Maesai"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.978292,
+                    18.800775
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Santitham Breakfast​ & Chiang Mai Pizza​",
+                "name": "Santitham Breakfast​ & Chiang Mai Pizza​"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.947622,
+                    18.775136
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Adirak Pizza",
+                "name": "Adirak Pizza"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.967702,
+                    18.800102
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "IAMES BASECAMP Cafe & Bistro",
+                "name": "IAMES BASECAMP Cafe & Bistro"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.994082,
+                    18.779425
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Coffee waf",
+                "name": "Coffee waf"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    98.975186,
+                    18.799091
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "U CHA Chiangmai",
+                "name": "U CHA Chiangmai"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

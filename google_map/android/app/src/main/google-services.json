@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "279602560210",
+    "project_id": "nomadmap-8252b",
+    "storage_bucket": "nomadmap-8252b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279602560210:android:663ff159f1e1e44d89810b",
+        "android_client_info": {
+          "package_name": "com.example.google_map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279602560210-4rhv8gp0s59jvdvhc3brtfpin1of2ajb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQvH6ghcSKJ2HuVaCyhn1yzvPCw5e5Xyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279602560210-4rhv8gp0s59jvdvhc3brtfpin1of2ajb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "279602560210-hlv7jl5sakrau52pk7poqscnplr1lr12.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cafeapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
