@@ -1,0 +1,11 @@
+framework module naver_map_plugin {
+  umbrella header "naver_map_plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module naver_map_plugin.Swift {
+  header "naver_map_plugin-Swift.h"
+  requires objc
+}

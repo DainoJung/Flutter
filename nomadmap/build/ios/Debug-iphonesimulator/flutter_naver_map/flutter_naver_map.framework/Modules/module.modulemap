@@ -1,0 +1,11 @@
+framework module flutter_naver_map {
+  umbrella header "flutter_naver_map-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_naver_map.Swift {
+  header "flutter_naver_map-Swift.h"
+  requires objc
+}

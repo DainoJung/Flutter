@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "9af8171c6265064b6ad7dbd71e4e793a7c47a6a7e3c9d8bb7c48f210529de52e"
+build_start_time: [1680791907, 111930000]
+build_end_time: [1680791907, 314380000]
+inputs:
+  "/Users/jungdain/Documents/GitHub/Flutter/nomadmap/macos/Flutter/GeneratedPluginRegistrant.swift": !private [1680791866, 774289085]
+  "/Users/jungdain/Documents/GitHub/Flutter/nomadmap/macos/Runner/AppDelegate.swift": !private [1678307516, 0]
+  "/Users/jungdain/Documents/GitHub/Flutter/nomadmap/macos/Runner/MainFlutterWindow.swift": !private [1678307516, 0]

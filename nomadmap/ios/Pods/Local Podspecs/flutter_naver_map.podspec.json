@@ -1,0 +1,34 @@
+{
+  "name": "flutter_naver_map",
+  "version": "0.10.1",
+  "summary": "flutter naver map plugin",
+  "description": "flutter naver map plugin",
+  "homepage": "https://github.com/note11g/flutter_naver_map",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Kim Seung Bin": "note11@kakao.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "NMapsMap": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
